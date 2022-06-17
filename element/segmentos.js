@@ -11,7 +11,7 @@ function Segmentos() {
 				<div className="row align-items-center">
 					<div className="">
 						<div className="section-head style-3 text-center">
-							<h2 className="title">Segmentos</h2>
+							<h2 className="title">Segmentoss</h2>
 							<h3 className="sub-title m-b20">Com o Meets diversas atividades podem ser automáticas,<br/> aumentando assim a produtividade de sua equipe e empresas.</h3>
 						</div>
 						
