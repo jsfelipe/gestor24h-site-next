@@ -75,13 +75,13 @@ function MyApp({ Component, pageProps })  {
       <meta property="og:url" content="https://meets.com.br/" />
       <meta property="og:site_name" content="Gestor 24h - Gestão Empresarial online" />
 			<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.png"/>
-      <link rel="stylesheet" type="text/css" href="https://gerador5.meets.com.br/widget/css" />
+      {/* <link rel="stylesheet" type="text/css" href="https://gerador5.meets.com.br/widget/css" />
 
-      <script async src={`https://gerador5.meets.com.br/widget/js?id_integracao=1&id_empresa=12276&identifier=12276`} />
+      <script async src={`https://gerador5.meets.com.br/widget/js?id_integracao=1&id_empresa=12276&identifier=12276`} /> */}
       
       
       
-      <script
+      {/* <script
             async
             src={`https://www.googletagmanager.com/gtag/js?id=UA-2333523-28`}
           />
@@ -107,7 +107,7 @@ function MyApp({ Component, pageProps })  {
             })(window,document,'script','dataLayer','GTM-5GJQK9J');
         `,
           }}
-        />
+        /> */}
 
 
      

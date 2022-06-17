@@ -23,7 +23,7 @@ function OurServices2() {
 							</div>
 							<div className="">
 								<h4 className="dlab-title m-b15">História</h4>
-								<p>O Meets iniciou sua história com o desafio de dois jovens empreendedores e desenvolvedores em 5 de dezembro de 2010, para desenvolvimento de um CRM para uma empresa de grande cadeia em Pernambuco. Porém, em 2012, aproximadamente, graças à procura de um amigo por um CRM gratuito que conseguisse automatizar ações e levasse uma maior qualidade de vida e diminuição de tempo, eles decidiram levar a ferramenta para frente, visto que, o software tinha um potencial de crescimento. Com isso, aliados a esse amigo que é um experiente profissional de administração e consultoria, decidiram fundar o Meets em Recife - Pernambuco.</p>
+								<p>O Gestor24h iniciou sua história com o desafio de dois jovens empreendedores e desenvolvedores em 5 de dezembro de 2010, para desenvolvimento de um CRM para uma empresa de grande cadeia em Pernambuco. Porém, em 2012, aproximadamente, graças à procura de um amigo por um CRM gratuito que conseguisse automatizar ações e levasse uma maior qualidade de vida e diminuição de tempo, eles decidiram levar a ferramenta para frente, visto que, o software tinha um potencial de crescimento. Com isso, aliados a esse amigo que é um experiente profissional de administração e consultoria, decidiram fundar o Gestor24h em Recife - Pernambuco.</p>
 							</div>
 						</div>
 						<div className="icon-bx-wraper style-3 left m-l100 m-b30 d-flex" data-aos="fade-up" data-aos-duration="500">
@@ -41,7 +41,7 @@ function OurServices2() {
 							</div>
 							<div className="">
 								<h4 className="dlab-title m-b15">Software</h4>
-								<p>Somos uma empresa SaaS (Software como Serviço), permitindo aos usuários se conectar e usar aplicativos baseados em nuvem pela Internet. Aqui no Meets, utilizamos toda a tecnologia da Amazon para manter nossos serviços.</p>
+								<p>Somos uma empresa SaaS (Software como Serviço), permitindo aos usuários se conectar e usar aplicativos baseados em nuvem pela Internet. Aqui no Gestor24h, utilizamos toda a tecnologia da Amazon para manter nossos serviços.</p>
 							</div>
 						</div>
 					</div>

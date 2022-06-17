@@ -10,7 +10,7 @@ function Cta() {
 					<div className="col-xl-8 col-lg-8 col-md-8">
 						<div className="center-mob">
 							<h2 className="title m-b20">Teste gratuitamente.</h2>
-							<h5 className="sub-title">Veja na prática todas as vantagens do Meets CRM.</h5>
+							<h5 className="sub-title">Veja na prática todas as vantagens do Gestor24h CRM.</h5>
 						</div>
 					</div>
 					<div className="col-xl-4 col-lg-4 col-md-4 center-mob">

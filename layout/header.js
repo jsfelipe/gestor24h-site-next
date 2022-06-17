@@ -35,7 +35,7 @@ function Header() {
         <>
 
             {/* <div className="breve">
-            <p><Unicons.UilInstagram /> Aguarde, em breve o Instagram estará integrado ao Meets.</p>
+            <p><Unicons.UilInstagram /> Aguarde, em breve o Instagram estará integrado ao Gestor24h.</p>
             </div> */}
 
             <header className="site-header mo-left header-transparent">

@@ -10,7 +10,7 @@ function Central() {
   return (
     <>
      <Head>
-    <title>Central de Atendimento OMNICHANNEL | Meets CRM</title>
+    <title>Central de Atendimento OMNICHANNEL | Gestor24h CRM</title>
     </Head>
       <Header />
       <div className="page-content">

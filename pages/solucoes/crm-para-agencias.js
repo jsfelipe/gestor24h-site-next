@@ -10,7 +10,7 @@ function crmParaFranquias() {
     <>
     
      <Head>
-    <title>CRM para Agências | Meets CRM</title>
+    <title>CRM para Agências | Gestor24h CRM</title>
     </Head>
       <Header />
       <div className="page-content bg-cinza">
@@ -36,7 +36,7 @@ function crmParaFranquias() {
                     </div>
                     <div className="col-lg-7 col-sm-7">
                     <h2 className="pt-mob">Integrações</h2>
-                    <p>Com o Meets, as integrações estarão disponíveis para facilitar pagamentos, cadastro de oportunidades e auxiliar suas estratégias de marketing digital.</p>
+                    <p>Com o Gestor24h, as integrações estarão disponíveis para facilitar pagamentos, cadastro de oportunidades e auxiliar suas estratégias de marketing digital.</p>
                     </div>
                 </div>
                 <div className="row align-items-center flex-row-reverse mb-mob center-mob">
@@ -45,7 +45,7 @@ function crmParaFranquias() {
                     </div>
                     <div className="col-lg-7 col-sm-7">
                     <h2 className="pt-mob">Dashboard</h2>
-                    <p>Entenda mais sobre indicadores e métricas importantes para sua agência. Com a aplicação do Meets CRM, haverá recursos que auxiliam na tomada de decisões e análise de desempenho, todos analisados em tempo real e com segurança. </p>
+                    <p>Entenda mais sobre indicadores e métricas importantes para sua agência. Com a aplicação do Gestor24h CRM, haverá recursos que auxiliam na tomada de decisões e análise de desempenho, todos analisados em tempo real e com segurança. </p>
                     </div>
                 </div>
                 <div className="row align-items-center  mb-mob center-mob">

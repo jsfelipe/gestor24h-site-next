@@ -33,7 +33,7 @@ function LeadChat() {
 									<h6 className="sub-title m-b10 text-primary">Novo recurso</h6>
 									<h1 className="title">LeadChat</h1>
 									<p className="text-white">Capte mais leads com esse conjunto de ferramentas poderoso e fácil de usar. Além do Chatbot e Lead Chat, você pode engajar suas leads inbound com os Formulários Web.</p>
-									<p className="text-white">*LeadChat pode ser adquirido com qualquer plano do Meets.</p>
+									<p className="text-white">*LeadChat pode ser adquirido com qualquer plano do Gestor24h.</p>
 								</div>
 							</div>
 						</div>

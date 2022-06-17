@@ -12,7 +12,7 @@ function Atendimento() {
   return (
     <>
      <Head>
-    <title>Atendimento | Meets CRM</title>
+    <title>Atendimento | Gestor24h CRM</title>
     </Head>
       <Header />
       <div className="page-content bg-cinza">
@@ -32,7 +32,7 @@ function Atendimento() {
                     </div>
                     <div className="row col-lg-7 col-sm-7">
                       <h2 className="mb-3">Controle total no atendimento</h2>
-                      <p>No mundo dos negócios, o atendimento ao público é peça-chave para o progresso de qualquer empresa. Diante disso, com o  Meets CRM você exerce maior controle sobre as suas negociações e, assim, sempre estará por dentro do que foi tratado pela última vez com os clientes.</p>
+                      <p>No mundo dos negócios, o atendimento ao público é peça-chave para o progresso de qualquer empresa. Diante disso, com o  Gestor24h CRM você exerce maior controle sobre as suas negociações e, assim, sempre estará por dentro do que foi tratado pela última vez com os clientes.</p>
                       <p>Tenha maior controle sobre suas negociações e não se esqueça o que foi tratado com os seus clientes anteriormente.</p>
                     </div>
                 </div>
@@ -43,7 +43,7 @@ function Atendimento() {
                 </div>
                 <div className="row col-lg-7 col-sm-7">
                   <h2>Atendimentos concentrados em um só lugar</h2>
-                  <p>Com o CRM Meets todos os atendimentos realizados por você ou por sua equipe de vendas ficam centralizados em um único só lugar. Desse modo, o histórico de conversas, com o dia, hora e o tipo de atendimento, fica registrado e acessível para você e o seu time fica sempre por dentro do que foi conversado anteriormente.</p>
+                  <p>Com o CRM Gestor24h todos os atendimentos realizados por você ou por sua equipe de vendas ficam centralizados em um único só lugar. Desse modo, o histórico de conversas, com o dia, hora e o tipo de atendimento, fica registrado e acessível para você e o seu time fica sempre por dentro do que foi conversado anteriormente.</p>
                   <p>Centralizamos seus atendimentos para que você tenha um maior controle sobre suas oportunidades.</p>
                 </div>
               </div>

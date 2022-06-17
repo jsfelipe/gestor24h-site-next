@@ -10,7 +10,7 @@ function Parceiros() {
   return (
     <>
     <Head>
-    <title>Parceiros | Meets CRM</title>
+    <title>Parceiros | Gestor24h CRM</title>
     </Head>
       <Header />
       <div className="page-content">
@@ -48,8 +48,8 @@ function Parceiros() {
                       </div>
                       <div className="col-lg-7 col-sm-7">
                         <h3 className="center-mob">Afiliados</h3>
-                        <p>O programa de Afiliados do Meets CRM inclui benefícios incríveis para começar a alavancar ainda mais suas vendas.</p>
-                        <p>Com oportunidades de ganho de comissões, o programa de Afiliados visa recompensar aqueles que indicarem novos clientes para o Meets, tornando-se proporcional o valor da comissão ao consumo de cada novo cliente na contratação e renovação de produtos da família Meets. Afiliar-se ao Meets é ter oportunidade de trabalhar com mais liberdade e aumentando seus lucros.</p>
+                        <p>O programa de Afiliados do Gestor24h CRM inclui benefícios incríveis para começar a alavancar ainda mais suas vendas.</p>
+                        <p>Com oportunidades de ganho de comissões, o programa de Afiliados visa recompensar aqueles que indicarem novos clientes para o Gestor24h, tornando-se proporcional o valor da comissão ao consumo de cada novo cliente na contratação e renovação de produtos da família Gestor24h. Afiliar-se ao Gestor24h é ter oportunidade de trabalhar com mais liberdade e aumentando seus lucros.</p>
                       </div> 
                     </div>  
                     <div className="row align-items-center mb-5 flex-row-reverse"> 
@@ -58,7 +58,7 @@ function Parceiros() {
                       </div>
                       <div className="col-lg-7 col-sm-7">
                       <h3 className="center-mob">Benefícios</h3>
-                      <p>Ao ser aceito no programa, o comissionado ganhará o equivalente a 20% do consumo do novo cliente Meets, integrando-se na nossa plataforma através do link específico do comissionado. O ganho (em dinheiro) será ofertado de forma recorrente enquanto o cliente indicado mantiver ativa sua conta no Meets.</p>
+                      <p>Ao ser aceito no programa, o comissionado ganhará o equivalente a 20% do consumo do novo cliente Gestor24h, integrando-se na nossa plataforma através do link específico do comissionado. O ganho (em dinheiro) será ofertado de forma recorrente enquanto o cliente indicado mantiver ativa sua conta no Gestor24h.</p>
                       <p>Na tabela abaixo, demonstramos as faixas de recorrência que o Afiliado poderá se encaixar, dependendo da quantidade de novos clientes que trouxerem no mês corrente.</p>
                       <table className="porcentagem w-100">
                         <tr>
@@ -93,8 +93,8 @@ function Parceiros() {
                     <p>Não perca comissões imperdíveis e acompanhamento de suas vendas.</p>
                     </div>  
                     <div className="col-lg-6 col-sm-6">
-                    <h3 className="center-mob">Quem pode participar do programa de afiliados Meets?</h3>
-                    <p>O programa de Afiliados é restrito para quem recebe o convite da equipe do Meets ou é aprovado por nossa equipe após pedido de participação. Diferentemente do programa de Indicação, disponível para todos os usuários do Meets.</p>
+                    <h3 className="center-mob">Quem pode participar do programa de afiliados Gestor24h?</h3>
+                    <p>O programa de Afiliados é restrito para quem recebe o convite da equipe do Gestor24h ou é aprovado por nossa equipe após pedido de participação. Diferentemente do programa de Indicação, disponível para todos os usuários do Gestor24h.</p>
                     </div>  
                 </div>
 

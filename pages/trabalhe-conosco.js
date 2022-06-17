@@ -27,7 +27,7 @@ function TrabalheConosco() {
               <div className="container">
                 <div className="row align-items-center shadow pl-5 banner-inner rounded pos-top m-mob">
                   <div className="col-lg-7 col-sm-7 center-mob">
-                    <h3 className="title m-b20">Decole sua carreira no Meets CRM</h3>
+                    <h3 className="title m-b20">Decole sua carreira no Gestor24h CRM</h3>
                     <p className="mb-0">Somos uma empresa dinâmica e com muitas oportunidades. Acreditamos que você pode ser crescer e transformar o mundo a sua volta. Estamos aqui para apoiar o seu desenvolvimento. Estamos juntos para orientar o caminho.</p>
                     <a href="#cadastro" className="btn btn-info border-0 mt-3">Preencha o formulário abaixo</a>
                   </div>
@@ -41,7 +41,7 @@ function TrabalheConosco() {
               <div className="container">
 
                 <div className="text-center pb-3">
-                    <h3>Por que trabalhar no Meets CRM?</h3>
+                    <h3>Por que trabalhar no Gestor24h CRM?</h3>
                 </div>
 
                 <div className="row mb-5">

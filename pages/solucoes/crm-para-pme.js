@@ -9,7 +9,7 @@ function crmParaPme() {
   return (
     <>
      <Head>
-    <title>CRM para Pequenas e Médias Empresas | Meets CRM</title>
+    <title>CRM para Pequenas e Médias Empresas | Gestor24h CRM</title>
     </Head>
       <Header />
       <div className="page-content bg-cinza">
@@ -35,7 +35,7 @@ function crmParaPme() {
                     </div>
                     <div className="col-lg-7 col-sm-7">
                     <h2 className="pt-mob">Históricos</h2>
-                    <p> Com a utilização de históricos, disponíveis no Meets CRM, sua empresa conseguirá ter acesso detalhado das atividades realizadas, como alterações, entrada de novas leads ou envio de e-mails em determinado horário e data.</p>
+                    <p> Com a utilização de históricos, disponíveis no Gestor24h CRM, sua empresa conseguirá ter acesso detalhado das atividades realizadas, como alterações, entrada de novas leads ou envio de e-mails em determinado horário e data.</p>
                     </div>
                 </div>
                 <div className="row align-items-center flex-row-reverse mb-mob center-mob">
@@ -44,7 +44,7 @@ function crmParaPme() {
                     </div>
                     <div className="col-lg-7 col-sm-7">
                     <h2 className="pt-mob">Gatilhos inteligentes</h2>
-                    <p>Com a integração de gatilhos inteligentes, disponível no Meets, será possível o envio das leads que entram em critério definido pelo usuário e disparadas em fluxo.</p>
+                    <p>Com a integração de gatilhos inteligentes, disponível no Gestor24h, será possível o envio das leads que entram em critério definido pelo usuário e disparadas em fluxo.</p>
                     </div>
                 </div>
                 <div className="row align-items-center mb-mob center-mob">
@@ -62,7 +62,7 @@ function crmParaPme() {
                     </div>
                     <div className="col-lg-7 col-sm-7">
                     <h2 className="pt-mob">Customer Experience (CX)</h2>
-                    <p>A Experiência do Cliente é tratada como métrica essencial para acompanhar a Jornada do Cliente, oferecendo sempre a melhor forma de atender e solucionar problemas. Com o Meets, sua CX irá alavancar e engajar clientes, possibilitando a melhora no atendimento e o recebimento do feedback.</p>
+                    <p>A Experiência do Cliente é tratada como métrica essencial para acompanhar a Jornada do Cliente, oferecendo sempre a melhor forma de atender e solucionar problemas. Com o Gestor24h, sua CX irá alavancar e engajar clientes, possibilitando a melhora no atendimento e o recebimento do feedback.</p>
                     </div>
                 </div>
             </div>

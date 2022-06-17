@@ -12,7 +12,7 @@ function Vantagens() {
 					<div className="">
 						<div className="section-head style-3 text-center">
 							<h2 className="title">Vantagens</h2>
-							<h3 className="sub-title m-b20">Com o Meets diversas atividades podem ser automáticas,<br/> aumentando assim a produtividade de sua equipe e empresas.</h3>
+							<h3 className="sub-title m-b20">Com o Gestor24h diversas atividades podem ser automáticas,<br/> aumentando assim a produtividade de sua equipe e empresas.</h3>
 						</div>
 						<div className="row">
 							<div class="col-lg-4 col-md-12">

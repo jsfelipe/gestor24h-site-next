@@ -12,7 +12,7 @@ function Importacoes() {
   return (
     <>
      <Head>
-    <title>Importações | Meets CRM</title>
+    <title>Importações | Gestor24h CRM</title>
     </Head>
       <Header />
       <div className="page-content bg-cinza">
@@ -31,9 +31,9 @@ function Importacoes() {
                     <Image className="img-mob mb-mob" src="/images/banner/importar-meets.png" alt="" width={460} height={460} />
                   </div>
                   <div className="row col-lg-7 col-md-12">     
-                    <h2>Importe os dados de outro CRM para o Meets</h2>
-                      <p>Com o Meets você pode importar os seus contatos, empresas, oportunidades e dados dos mais diversos de outro CRM ou de planilhas , inclusive o Google Drive.</p>
-                      <p>Se você já conta com uma outra solução em CRM e quer mudar para o CRM Meets, deve se perguntar se isso é possível. A resposta é SIM! Você pode importar negócios e todas as suas informações.</p>
+                    <h2>Importe os dados de outro CRM para o Gestor24h</h2>
+                      <p>Com o Gestor24h você pode importar os seus contatos, empresas, oportunidades e dados dos mais diversos de outro CRM ou de planilhas , inclusive o Google Drive.</p>
+                      <p>Se você já conta com uma outra solução em CRM e quer mudar para o CRM Gestor24h, deve se perguntar se isso é possível. A resposta é SIM! Você pode importar negócios e todas as suas informações.</p>
                   </div>
                 </div>
 
@@ -43,8 +43,8 @@ function Importacoes() {
                   </div>
                   <div className="row col-lg-7 col-md-12">     
                     <h2>Se você já conta com uma base<br/>de contatos, não se preocupe!</h2>
-                    <p>O Meets permite importar contatos a qualquer momento, em poucos passos e sem maiores complicações, além disso dispõe da função de exclusão de importações realizadas, caso não tenha entrado da maneira correta.</p>
-                    <p>Com o Meets você pode importar todos os seus contatos/clientes a partir de um arquivo .CSV ou através da integração com o Google Sheets. </p>
+                    <p>O Gestor24h permite importar contatos a qualquer momento, em poucos passos e sem maiores complicações, além disso dispõe da função de exclusão de importações realizadas, caso não tenha entrado da maneira correta.</p>
+                    <p>Com o Gestor24h você pode importar todos os seus contatos/clientes a partir de um arquivo .CSV ou através da integração com o Google Sheets. </p>
                   </div>
                 </div>
 

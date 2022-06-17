@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import MeetsCrm from "../element/box-funcionalidades";
+import Gestor24hCrm from "../element/box-funcionalidades";
 import Clients2 from "../element/clients-2";
 import SliderSolucoes from "../element/slider-solucoes";
 import BoxOrcamento from "../element/box-orcamento";

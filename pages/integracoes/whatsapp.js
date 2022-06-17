@@ -12,7 +12,7 @@ function Whatsapp() {
         <div className="dlab-bnr-inr style-2">
           <div className="container">
             <div className="dlab-bnr-inr-entry">
-              <h1>Meets + Whatsapp</h1>
+              <h1>Gestor24h + Whatsapp</h1>
               <h5>Transforme o WhatsApp com CRM em um canal poderoso para gerar vendas.</h5>
             </div>
           </div>
@@ -53,7 +53,7 @@ function Whatsapp() {
                     <div className="col-lg-7 col-sm-7 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.1s">
                     <h6 class="sub-title text-primary m-b15 center-mob">Automação</h6>
                     <h2 className="center-mob">Parceiro oficial Whatsapp</h2>
-                    <p>O Whatsapp em automação está liberado para poucas empresas no mundo. Somos parceiros oficiais para utilizar a API WhatsApp Business e criamos automações dentro do CRM Meets que te ajudam no seu dia a dia.</p>
+                    <p>O Whatsapp em automação está liberado para poucas empresas no mundo. Somos parceiros oficiais para utilizar a API WhatsApp Business e criamos automações dentro do CRM Gestor24h que te ajudam no seu dia a dia.</p>
                     <p>O WhatsApp promete revolucionar o mercado de compras e de serviços nos próximos anos, portanto, a empresa que possui uma integração oficial, tem maiores chances de se diferenciar no mercado.</p>
                     </div>
                 </div>
@@ -76,7 +76,7 @@ function Whatsapp() {
                     <div className="col-lg-7 col-sm-7" data-wow-duration="2s" data-wow-delay="0.1s">
                     <h6 class="sub-title text-primary m-b15 center-mob">App</h6>
                     <h2 className="center-mob">Comunique-se em um só app com Inbox unificado para WhatsApp</h2>
-                    <p>O Meets CRM é um Hub de leads e de comunicação para todas as suas valiosas conversas comerciais.</p>
+                    <p>O Gestor24h CRM é um Hub de leads e de comunicação para todas as suas valiosas conversas comerciais.</p>
                     <p>Cada cliente em potencial obtém seu próprio perfil completo, onde você pode se comunicar com eles usando seus canais favoritos: telefone, SMS, e-mail, WhatsApp, Messenger, Instagram e Telegram.</p>
                     </div>
                 </div>
@@ -87,7 +87,7 @@ function Whatsapp() {
                     <div className="col-lg-7 col-sm-7" data-wow-duration="2s" data-wow-delay="0.1s">
                     <h6 class="sub-title text-primary m-b15 center-mob">Arquivos</h6>
                     <h2 className="center-mob">Envio de arquivos</h2>
-                    <p>Assim como no app nativo do Whatsapp, pelo Meets você também pode enviar e receber arquivos de áudio, vídeo, PDF e imagens. Excelente para enviar suas propostas e catálogo de produtos em pdf.</p>
+                    <p>Assim como no app nativo do Whatsapp, pelo Gestor24h você também pode enviar e receber arquivos de áudio, vídeo, PDF e imagens. Excelente para enviar suas propostas e catálogo de produtos em pdf.</p>
                     </div>
                 </div>
 

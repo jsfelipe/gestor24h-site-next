@@ -12,7 +12,7 @@ function Oportunidades() {
   return (
     <>
      <Head>
-    <title>Controle de Oportunidades e Negócios | Meets CRM</title>
+    <title>Controle de Oportunidades e Negócios | Gestor24h CRM</title>
     </Head>
       <Header />
       <div className="page-content bg-cinza">
@@ -68,7 +68,7 @@ function Oportunidades() {
                 <div className="row mt-5">
                   <div className="col-md-6">
                   <h4 className="center-mob">Cadastro de oportunidades</h4>
-                  <p>O Meets tem como filosofia facilitar a vida dos usuários, não é a toa que chamam ele do Iphone dos CRMS e, para isso, dispõe de recursos que facilitam a sua vida.
+                  <p>O Gestor24h tem como filosofia facilitar a vida dos usuários, não é a toa que chamam ele do Iphone dos CRMS e, para isso, dispõe de recursos que facilitam a sua vida.
                     Cadastrando uma oportunidade você pode inserir dados de contato do cliente, tags, funis, compartilhar com outros membros da equipe, adicionar produtos, entre outras informações, que otimizam o seu trabalho e o da sua equipe.</p>
                   </div>
                   <div className="col-md-6">

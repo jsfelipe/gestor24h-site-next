@@ -7,7 +7,7 @@ import Head from "next/head";
 function crmParaEducacao() {
   return (
     <> <Head>
-    <title>CRM para Educação, faculdades e Escolas | Meets CRM</title>
+    <title>CRM para Educação, faculdades e Escolas | Gestor24h CRM</title>
     </Head>
       <Header />
       <div className="page-content bg-cinza">

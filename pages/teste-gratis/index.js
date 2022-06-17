@@ -93,7 +93,7 @@ function Index() {
   return (
     <>
      <Head>
-    <title>Teste Grátis | Meets CRM</title>
+    <title>Teste Grátis | Gestor24h CRM</title>
     </Head>
 
       <div className="page-content page-teste d-flex align-items-center justify-content-center">

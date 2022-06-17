@@ -31,7 +31,7 @@ function Atividades() {
                           <p>Gerencie as suas atividades e lembretes para facilitar a sua atuação e a do seu time na execução de estratégias e práticas mais assertivas.</p>
                           <p>Crie lembretes e tarefas repetidas em poucos cliques e defina quem é o responsável pela tarefa.</p>
                           <p>Organizando as atividades, você e o seu time conseguem planejar e adotar ações mais estratégicas que geram melhores resultados.</p> 
-                          <p>Além disso, você pode ser lembrado pelo Meets das atividades a partir do recebimento de notificação por e-mail.</p>
+                          <p>Além disso, você pode ser lembrado pelo Gestor24h das atividades a partir do recebimento de notificação por e-mail.</p>
                       </div>
                     </div>
                     
@@ -41,7 +41,7 @@ function Atividades() {
                       </div>
                       <div className="row col-lg-7 col-sm-7">
                         <h4>Adicione lembretes as suas atividades</h4>
-                          <p>No Meets você tem acesso a todas as atividades cadastradas, sejam elas relacionadas ou não à alguma oportunidade. Além disso, você pode configurar para receber lembretes dessas atividades cadastradas e, assim, não esquecer dos compromissos.</p>
+                          <p>No Gestor24h você tem acesso a todas as atividades cadastradas, sejam elas relacionadas ou não à alguma oportunidade. Além disso, você pode configurar para receber lembretes dessas atividades cadastradas e, assim, não esquecer dos compromissos.</p>
                           <p>Na configuração de lembretes, você escolhe uma determinada atividade e marca a opção “Receber lembrete”, sendo possível, também, escolher horário de chegada do lembrete, uma descrição sobre, entre outras funcionalidades.</p>
                       </div>
                     </div>

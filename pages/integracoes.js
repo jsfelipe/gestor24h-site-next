@@ -11,7 +11,7 @@ function Integracoes() {
   return (
     <>
     <Head>
-    <title>Integrações | Meets CRM</title>
+    <title>Integrações | Gestor24h CRM</title>
     </Head>
 
       <Header />
@@ -34,7 +34,7 @@ function Integracoes() {
                 <div className="row align-items-center shadow banner-inner rounded pos-top m-mob">
                   <div className="col-lg-7 col-sm-7 pl-5 fadeInUp">
                     <h2 className="mb-3 center-mob">Dê super poderes ao seu CRM</h2>
-                    <p className="mb-0">As diversas integrações nativas do CRM permitem que você utilize o Meets como um Hub de leads . Você centraliza suas leads vindas de todas as fontes de tráfego e distribui elas para sua equipe de vendas, atendimento ou administrativa. 
+                    <p className="mb-0">As diversas integrações nativas do CRM permitem que você utilize o Gestor24h como um Hub de leads . Você centraliza suas leads vindas de todas as fontes de tráfego e distribui elas para sua equipe de vendas, atendimento ou administrativa. 
                     Conecte diretamente com várias canais de anúncios, ferramentas, landing pages. Você ainda tem a opção de usar nossa API ou integração com parceiros.</p>
                   </div>
                   <div className="col-lg-5 col-sm-5 box-homem p-relative">

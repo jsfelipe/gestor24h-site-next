@@ -9,7 +9,7 @@ function crmParaClinicas() {
   return (
     <>
      <Head>
-    <title>CRM para Clínicas | Meets CRM</title>
+    <title>CRM para Clínicas | Gestor24h CRM</title>
     </Head>
       <Header />
       <div className="page-content bg-cinza">

@@ -35,7 +35,7 @@ function Footer() {
 						<div className="widget style-1 center-mob">
 						   <h5 className="footer-title">CRM</h5>
 							<ul className="center-mob">
-								<li><a href="https://apidoc.meets.com.br/" target="_blank">API Meets</a></li>
+								<li><a href="https://apidoc.meets.com.br/" target="_blank">API Gestor24h</a></li>
 								<li><a href="/duvidas-frequentes">Dúvidas Frequentes</a></li>
 								<li><a href="/termos-e-condicoes">Termos e condições</a></li>
 								<li><a href="/termos-de-uso-whatsapp">Termos de uso whatsapp</a></li>
@@ -64,7 +64,7 @@ function Footer() {
 									<li><a className="fa fa-instagram" href="https://www.instagram.com/meetscrm/" target="_blank"></a></li>
 									<li><a className="fa fa-linkedin" href="https://www.linkedin.com/company/meetscrm/" target="_blank"></a></li>
 									<li><a className="fa fa-twitter" href="https://twitter.com/meets_crm" target="_blank"></a></li>
-									<li><a className="fa fa-youtube" href="https://www.youtube.com/c/MeetsBr" target="_blank"></a></li>
+									<li><a className="fa fa-youtube" href="https://www.youtube.com/c/Gestor24hBr" target="_blank"></a></li>
 									<li><a className="fa fa-pinterest" href="https://br.pinterest.com/meetscrm1/" target="_blank"></a></li>
 								</ul>
 							</div>
@@ -82,7 +82,7 @@ function Footer() {
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-md-12 text-center"> 
-						<span className="copyright-text">Copyright © 2022 <a href="https://dexignzone.com/" target="_blank">Meets CRM</a>. Todos os direitos reservados.</span> 
+						<span className="copyright-text">Copyright © 2022 <a href="https://dexignzone.com/" target="_blank">Gestor24h CRM</a>. Todos os direitos reservados.</span> 
 					</div>
                 </div>
             </div>

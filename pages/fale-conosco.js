@@ -72,7 +72,7 @@ function FaleConosco() {
                         <li><a className="fa fa-instagram" href="https://www.instagram.com/meetscrm/"></a></li>
                         <li><a className="fa fa-linkedin" href="https://www.linkedin.com/company/meetscrm/"></a></li>
                         <li><a className="fa fa-twitter" href="https://twitter.com/meets_crm"></a></li>
-                        <li><a className="fa fa-youtube" href="https://www.youtube.com/c/MeetsBr"></a></li>
+                        <li><a className="fa fa-youtube" href="https://www.youtube.com/c/Gestor24hBr"></a></li>
                         <li><a className="fa fa-pinterest" href="https://br.pinterest.com/meetscrm1/"></a></li>
                       </ul>
                   </div>

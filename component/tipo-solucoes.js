@@ -64,7 +64,7 @@ const renderArrows = () => {
                                 </div>
                                 <h2 className="">Indústria</h2>
                                 <p>
-                                Com a utilização de um CRM na sua indústria, será possível compreender melhor o Workflow, conseguir gerar orçamentos e entender mais da cadência de pedidos, analisando a recorrência e o fluxo de ações automatizadas. O Meets também faz integrações com sistemas ERPs (Enterprise Resource Planning), como o Bling e o Conta Azul.
+                                Com a utilização de um CRM na sua indústria, será possível compreender melhor o Workflow, conseguir gerar orçamentos e entender mais da cadência de pedidos, analisando a recorrência e o fluxo de ações automatizadas. O Gestor24h também faz integrações com sistemas ERPs (Enterprise Resource Planning), como o Bling e o Conta Azul.
                                 </p>
                             </div>
                         </div>
@@ -88,7 +88,7 @@ const renderArrows = () => {
                                 </div>
                                 <h2 className="">Serviços</h2>
                                 <p>
-                                O Meets integrado aos serviços será utilizado no atendimento e suporte a venda, compreendendo sobre as necessidades/problemas das leads. Além disso, com a aplicação do CRM, ficará mais acessível ao histórico e informações, facilitando o fluxo de trabalho e otimizando a produtividade da sua equipe.
+                                O Gestor24h integrado aos serviços será utilizado no atendimento e suporte a venda, compreendendo sobre as necessidades/problemas das leads. Além disso, com a aplicação do CRM, ficará mais acessível ao histórico e informações, facilitando o fluxo de trabalho e otimizando a produtividade da sua equipe.
                                 </p>
                             </div>
                         </div>

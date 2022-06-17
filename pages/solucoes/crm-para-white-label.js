@@ -8,7 +8,7 @@ function crmParaWhiteLabel() {
   return (
     <>
      <Head>
-    <title>CRM Whitelabel | Meets CRM</title>
+    <title>CRM Whitelabel | Gestor24h CRM</title>
     </Head>
       <Header />
       <div className="page-content bg-cinza">

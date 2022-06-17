@@ -27,8 +27,8 @@ function Relatorios() {
                     </div>
                     <div className="row col-lg-7 col-md-12">
                       <h2>Gráficos</h2>
-                      <p>Com o Meets CRM, tenha acesso à gráficos sobre a performance do seu negócio e exporte todas as informações, caso achar necessário. Acompanhe sempre o desempenho da sua empresa.</p>
-                      <p>No Meets CRM, você pode visualizar gráficos de metas, sobre clientes e oportunidades e, desse modo, ficar por dentro da performance da sua empresa. Diante disso, você tem em mãos informações valiosas para tomar decisões mais estratégicas no seu negócio.</p>
+                      <p>Com o Gestor24h CRM, tenha acesso à gráficos sobre a performance do seu negócio e exporte todas as informações, caso achar necessário. Acompanhe sempre o desempenho da sua empresa.</p>
+                      <p>No Gestor24h CRM, você pode visualizar gráficos de metas, sobre clientes e oportunidades e, desse modo, ficar por dentro da performance da sua empresa. Diante disso, você tem em mãos informações valiosas para tomar decisões mais estratégicas no seu negócio.</p>
                     </div>
                 </div>
                 <div className="row align-items-center flex-row-reverse center-mob">
