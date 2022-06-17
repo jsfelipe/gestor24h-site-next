@@ -6,7 +6,7 @@ import Header from "../layout/header";
 function Segmentos() {
     return (
       <>
-        <section className="content-inner automatize">
+        <section className="content-inner">
 			<div className="container">
 				<div className="row align-items-center">
 					<div className="">
@@ -14,42 +14,130 @@ function Segmentos() {
 							<h2 className="title">Segmentos</h2>
 							<h3 className="sub-title m-b20">Com o Meets diversas atividades podem ser automáticas,<br/> aumentando assim a produtividade de sua equipe e empresas.</h3>
 						</div>
-						<div className="row">
-							<div class="col-lg-4 col-md-12">
+						
+						<div className="row funcoes mb-5">
+							<div class="col-lg-3 col-md-12 lr lb">
 								<div class="d-flex flex-column align-items-center justify-content-center">
-									<div class="icon-bx-xl" data-aos="fade-up" data-aos-duration="300">
-										<img src="images/icon/funil.svg" alt="" />
+									<div class="icon-bx-md" data-aos="fade-up" data-aos-duration="300">
+										<img src="images/icon/servicos.svg" alt="" />
 									</div>
 									<div class="icon-content text-center plr-mob" data-aos="fade-up" data-aos-duration="500">
-										<h4 class="dlab-tilte text-capitalize">Indústria</h4>
-										<p>Configure e deixe seu funil automatizado para as ações repetitivas do dia a dia.</p>
+										<h6 class="">Arquitetura</h6>
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-4 col-md-12">
+							<div class="col-lg-3 col-md-12 lr lb">
 								<div class="d-flex flex-column align-items-center justify-content-center">
-									<div class="icon-bx-xl" data-aos="fade-up" data-aos-duration="700">
-										<img src="images/icon/cadencia.svg" alt="" />
+									<div class="icon-bx-md" data-aos="fade-up" data-aos-duration="300">
+										<img src="images/icon/servicos.svg" alt="" />
+									</div>
+									<div class="icon-content text-center plr-mob" data-aos="fade-up" data-aos-duration="500">
+										<h6 class="">Assessorias</h6>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-12 lr lb">
+								<div class="d-flex flex-column align-items-center justify-content-center">
+									<div class="icon-bx-md" data-aos="fade-up" data-aos-duration="300">
+										<img src="images/icon/servicos.svg" alt="" />
+									</div>
+									<div class="icon-content text-center plr-mob" data-aos="fade-up" data-aos-duration="500">
+										<h6 class="">Assitência técnica</h6>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-12 lb">
+								<div class="d-flex flex-column align-items-center justify-content-center">
+									<div class="icon-bx-md" data-aos="fade-up" data-aos-duration="700">
+										<img src="images/icon/vendas.svg" alt="" />
 									</div>
 									<div class="icon-content text-center plr-mob" data-aos="fade-up" data-aos-duration="900">
-										<h4 class="dlab-tilte text-capitalize">Comércio</h4>
-										<p>Crie cadências organizadas de acordo com o estágio de suas leads.</p>
+										<h6 class="">Cerimonial</h6>
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-4 col-md-12">
+							<div class="col-lg-3 col-md-12 lb lr">
 								<div class="d-flex flex-column align-items-center justify-content-center">
-									<div class="icon-bx-xl" data-aos="fade-up" data-aos-duration="1100">
-										<img src="images/icon/tarefas.svg" alt="" />
+									<div class="icon-bx-md" data-aos="fade-up" data-aos-duration="1100">
+										<img src="images/icon/marketing.svg" alt="" />
 									</div>
-									<div class="icon-content text-center plr-mob" data-aos="fade-up" data-aos-duration="1200">
-										<h4 class="dlab-tilte text-capitalize">Serviços</h4>
-										<p>Defina tarefas para cada etapa do funil de acordo com os gatilhos.</p>
+									<div class="icon-content text-center plr-mob" data-aos="fade-up" data-aos-duration="1300">
+										<h6 class="">Consultorias</h6>
 									</div>
 								</div>
 							</div>
-							
+							<div class="col-lg-3 col-md-12 lb lr">
+								<div class="d-flex flex-column align-items-center justify-content-center">
+									<div class="icon-bx-md" data-aos="fade-up" data-aos-duration="1500">
+										<img src="images/icon/estrutura.svg" alt="" />
+									</div>
+									<div class="icon-content text-center plr-mob" data-aos="fade-up" data-aos-duration="1700">
+										<h6 class="">Decoração</h6>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-12 lb lr">
+								<div class="d-flex flex-column align-items-center justify-content-center">
+									<div class="icon-bx-md" data-aos="fade-up" data-aos-duration="1500">
+										<img src="images/icon/estrutura.svg" alt="" />
+									</div>
+									<div class="icon-content text-center plr-mob" data-aos="fade-up" data-aos-duration="1700">
+										<h6 class="">Fotografia</h6>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-12 lb">
+								<div class="d-flex flex-column align-items-center justify-content-center">
+									<div class="icon-bx-md" data-aos="fade-up" data-aos-duration="1500">
+										<img src="images/icon/estrutura.svg" alt="" />
+									</div>
+									<div class="icon-content text-center plr-mob" data-aos="fade-up" data-aos-duration="1700">
+										<h6 class="">Palestras</h6>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-12 lr">
+								<div class="d-flex flex-column align-items-center justify-content-center">
+									<div class="icon-bx-md" data-aos="fade-up" data-aos-duration="1500">
+										<img src="images/icon/estrutura.svg" alt="" />
+									</div>
+									<div class="icon-content text-center plr-mob" data-aos="fade-up" data-aos-duration="1700">
+										<h6 class="">Eventos</h6>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-12 lr">
+								<div class="d-flex flex-column align-items-center justify-content-center">
+									<div class="icon-bx-md" data-aos="fade-up" data-aos-duration="1500">
+										<img src="images/icon/estrutura.svg" alt="" />
+									</div>
+									<div class="icon-content text-center plr-mob" data-aos="fade-up" data-aos-duration="1700">
+										<h6 class="">Clínicas/Estética</h6>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-12 lr">
+								<div class="d-flex flex-column align-items-center justify-content-center">
+									<div class="icon-bx-md" data-aos="fade-up" data-aos-duration="1500">
+										<img src="images/icon/estrutura.svg" alt="" />
+									</div>
+									<div class="icon-content text-center plr-mob" data-aos="fade-up" data-aos-duration="1700">
+										<h6 class="">Construção</h6>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-12">
+								<div class="d-flex flex-column align-items-center justify-content-center">
+									<div class="icon-bx-md" data-aos="fade-up" data-aos-duration="1500">
+										<img src="images/icon/estrutura.svg" alt="" />
+									</div>
+									<div class="icon-content text-center plr-mob" data-aos="fade-up" data-aos-duration="1700">
+										<h6 class="">Treinamentos</h6>
+									</div>
+								</div>
+							</div>
 						</div>
+					
 						
 					</div>
 					

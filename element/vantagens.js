@@ -48,6 +48,39 @@ function Vantagens() {
 									</div>
 								</div>
 							</div>
+							<div class="col-lg-4 col-md-12">
+								<div class="d-flex flex-column align-items-center justify-content-center">
+									<div class="icon-bx-xl" data-aos="fade-up" data-aos-duration="1100">
+										<img src="images/icon/tarefas.svg" alt="" />
+									</div>
+									<div class="icon-content text-center plr-mob" data-aos="fade-up" data-aos-duration="1200">
+										<h4 class="dlab-tilte text-capitalize">Gestão por centro de custo e projeto</h4>
+										<p>Controle o que cada usuário pode ter acesso, crie perfis de usuários</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-12">
+								<div class="d-flex flex-column align-items-center justify-content-center">
+									<div class="icon-bx-xl" data-aos="fade-up" data-aos-duration="1100">
+										<img src="images/icon/tarefas.svg" alt="" />
+									</div>
+									<div class="icon-content text-center plr-mob" data-aos="fade-up" data-aos-duration="1200">
+										<h4 class="dlab-tilte text-capitalize">Conciliação bancária por OFX e Arquivo CNAB</h4>
+										<p>Controle o que cada usuário pode ter acesso, crie perfis de usuários</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-12">
+								<div class="d-flex flex-column align-items-center justify-content-center">
+									<div class="icon-bx-xl" data-aos="fade-up" data-aos-duration="1100">
+										<img src="images/icon/tarefas.svg" alt="" />
+									</div>
+									<div class="icon-content text-center plr-mob" data-aos="fade-up" data-aos-duration="1200">
+										<h4 class="dlab-tilte text-capitalize">Faturamentos recorrentes com emissão de NFS-e ou recibo</h4>
+										<p>Controle o que cada usuário pode ter acesso, crie perfis de usuários</p>
+									</div>
+								</div>
+							</div>
 							
 						</div>
 						

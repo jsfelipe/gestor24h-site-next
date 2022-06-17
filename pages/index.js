@@ -31,7 +31,7 @@ function Index2() {
         <BoxRelatorios />
         {/* <SliderSolucoes /> */}
         {/* <BoxRecursos /> */}
-        <BoxFuncionalidades />
+        {/* <BoxFuncionalidades /> */}
         <Segmentos /> 
         <div id="action-home">
         <Cta />
