@@ -43,8 +43,8 @@ function BoxFuncionalidades() {
 										<img src="images/icon/servicos.svg" alt="" />
 									</div>
 									<div class="icon-content text-center plr-mob" data-aos="fade-up" data-aos-duration="500">
-										<h6 class="">Notas fiscais e boletos ilimitados</h6>
-										<p>lorem ipsum</p>
+										<h6 class="">Notas fiscais e boletos</h6>
+										<p>+ R$50,00 você tem NFS-e ilimitadas</p>
 									</div>
 								</div>
 							</div>
@@ -88,7 +88,7 @@ function BoxFuncionalidades() {
 									</div>
 									<div class="icon-content text-center plr-mob" data-aos="fade-up" data-aos-duration="1700">
 										<h6 class="">Adicione tarefas e delege ao responsável</h6>
-										<p>lorem ipsum</p>
+										<p>Gerencie as tarefas da sua equipe de forma simples e organizada.</p>
 									</div>
 								</div>
 							</div>
@@ -98,8 +98,8 @@ function BoxFuncionalidades() {
 										<img src="images/icon/estrutura.svg" alt="" />
 									</div>
 									<div class="icon-content text-center plr-mob" data-aos="fade-up" data-aos-duration="1700">
-										<h6 class="">Conciliação bancária por <br/>OFX  e Arquivo CNAB</h6>
-										<p>lorem ipsum</p>
+										<h6 class="">Armazenamento ilimitado</h6>
+										<p>Trabalhe tranquilo, seu </p>
 									</div>
 								</div>
 							</div>

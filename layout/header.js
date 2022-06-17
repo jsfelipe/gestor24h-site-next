@@ -92,7 +92,6 @@ function Header() {
 									<li><Link href="/recursos/comunicacao/"><a>Recursos</a></Link></li>
                                     <li><Link href="/solucoes"><a>Soluções</a></Link></li>
                                     <li><Link href="/planos"><a>Planos</a></Link></li>
-                                    <li><Link href="https://blog.meets.com.br/" ><a target="_blank" rel="noreferrer" >Blog</a></Link></li>
                                     <li><Link href="https://ajuda.meets.com.br" ><a target="_blank" rel="noreferrer" >Ajuda</a></Link></li>
                                 </ul>
                                  <div className="dlab-social-icon">
