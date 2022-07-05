@@ -45,7 +45,7 @@ function Header() {
                         <div className="container clearfix">
                             {/* <!-- Website Logo --> */}
                             <div className="logo-header mostion logo-dark">
-                                <Link href="/">
+                                <Link href="#topo">
                                     <a>
                                         <img className="custom-logo-white" src="../images/logo/logo-gestor.svg" alt="" />
                                         <img className="custom-logo" src="../images/logo/logo-gestor-verde.svg" alt="" />
@@ -67,7 +67,7 @@ function Header() {
                             <div className="extra-nav">
                                 <div className="extra-cell">
                                     <Link href="/teste-gratis/" target="_blank">
-                                        <a className="btn btn-primary rounded-xl" target="_blank" rel="noreferrer">Teste Grátis</a>
+                                        <a className="btn btn-primary rounded-xl" target="_blank" rel="noreferrer">Solicitar apresentação</a>
                                     </Link>
                                     <Link href="https://acesso.meets.com.br" >
                                         <a className="btn btn-login rounded-xl" target="_blank" rel="noreferrer">Login</a>
@@ -81,7 +81,7 @@ function Header() {
                                 id="navbarNavDropdown"
                             >
                                 <div className="logo-header">
-                                    <Link href="/index">
+                                    <Link href="#topo">
                                         <a>
                                             <img src="images/logo/logo-gestor.svg" alt="" />
                                         </a>
@@ -89,15 +89,15 @@ function Header() {
                                 </div>
 
                                 <ul className="nav navbar-nav navbar">                    
-									<li><Link href="/recursos/comunicacao/"><a>Recursos</a></Link></li>
-                                    <li><Link href="/solucoes"><a>Soluções</a></Link></li>
-                                    <li><Link href="/planos"><a>Planos</a></Link></li>
+									<li><Link href="#box-recursos"><a>Recursos</a></Link></li>
+                                    <li><Link href="#vantagens"><a>Vantagens</a></Link></li>
+                                    <li><Link href="#box-planos"><a>Planos</a></Link></li>
                                     <li><Link href="https://ajuda.meets.com.br" ><a target="_blank" rel="noreferrer" >Ajuda</a></Link></li>
                                 </ul>
                                  <div className="dlab-social-icon">
                                     <div className="extra-cell d-flex flex-column">
                                         <Link href="teste-gratis">
-                                            <a className="btn btn-primary rounded-xl shadow" target="_blank" rel="noreferrer" >Teste Grátis</a>
+                                            <a className="btn btn-primary rounded-xl shadow" target="_blank" rel="noreferrer" >Solicitar apresentação</a>
                                         </Link>
                                         <Link href="login">
                                             <a className="btn btn-login rounded-xl border border-white border-5" target="_blank" rel="noreferrer">Login</a>

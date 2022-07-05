@@ -10,10 +10,7 @@ function BoxFuncionalidades() {
 			<div className="container">
 				<div className="row align-items-center">
 				<div className="">
-						{/* <div className="section-head style-3 text-center">
-							<h2 className="title">Funcionalidades</h2>
-							<h3 className="sub-title m-b20">lorem ipsum</h3>
-						</div> */}
+	
 						<div className="row funcoes mb-5">
 							<div class="col-lg-3 col-md-12 lr lb">
 								<div class="d-flex flex-column align-items-center justify-content-center">

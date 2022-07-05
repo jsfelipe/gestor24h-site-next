@@ -14,8 +14,6 @@ function Footer() {
 								<li><a href="/sobre">Sobre</a></li>
 								<li><a href="https://blog.meets.com.br/" target="_blank">Blog</a></li>
 								<li><a href="/parceiros">Parceiros</a></li>
-								<li><a href="/fale-conosco">Fale Conosco</a></li>
-								<li><a href="/trabalhe-conosco">Trabalhe Conosco</a></li>
 							</ul>
 						</div>
                     </div>
@@ -26,21 +24,6 @@ function Footer() {
 								<li><a href="/solucoes/crm-para-infoprodutos">CRM para Infoprodutos</a></li>
 								<li><a href="/solucoes/crm-para-agencias">CRM para Agências</a></li>
 								<li><a href="/solucoes/crm-para-pme">CRM para PME</a></li>
-								<li><a href="/solucoes/crm-para-clinicas">CRM para Clínicas</a></li>
-								<li><a href="/solucoes/crm-para-imobiliarias">CRM para Imobiliárias</a></li>
-							</ul>
-						</div>
-                    </div>
-					<div className="col-xl-2 col-lg-3 col-md-4  col-sm-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.8s">
-						<div className="widget style-1 center-mob">
-						   <h5 className="footer-title">CRM</h5>
-							<ul className="center-mob">
-								<li><a href="https://apidoc.meets.com.br/" target="_blank">API Meets</a></li>
-								<li><a href="/duvidas-frequentes">Dúvidas Frequentes</a></li>
-								<li><a href="/termos-e-condicoes">Termos e condições</a></li>
-								<li><a href="/termos-de-uso-whatsapp">Termos de uso whatsapp</a></li>
-								<li><a href="/politica-de-privacidade">Política de privacidade</a></li>
-								<li><a href="/lgpd">LGPD</a></li>
 							</ul>
 						</div>
                     </div>
@@ -82,7 +65,7 @@ function Footer() {
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-md-12 text-center"> 
-						<span className="copyright-text">Copyright © 2022 <a href="https://dexignzone.com/" target="_blank">Meets CRM</a>. Todos os direitos reservados.</span> 
+						<span className="copyright-text">Copyright © 2022 <a href="https://dexignzone.com/" target="_blank">Gestor 24h</a>. Todos os direitos reservados.</span> 
 					</div>
                 </div>
             </div>
