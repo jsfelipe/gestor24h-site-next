@@ -24,6 +24,7 @@
         "react-google-recaptcha": "^2.1.0",
         "react-loading": "^2.0.3",
         "react-modal-video": "^1.2.6",
+        "react-player": "^2.10.1",
         "react-rangeslider": "^2.2.0",
         "react-router-dom": "^5.2.0",
         "react-scroll-to-top": "^1.0.5",
