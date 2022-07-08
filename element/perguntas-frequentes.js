@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Image from 'next/image';
 import Accordion from 'react-bootstrap/Accordion';
-import Card from 'react-bootstrap/card';
+import Card from 'react-bootstrap/Card';
 
 function PerguntasFrequentes() {
     const [open, setOpen] = useState("p2")
