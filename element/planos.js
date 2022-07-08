@@ -41,7 +41,7 @@ function Planos() {
             <p>Com o Gestor24h você e sua equipe recebem um treinamento completo da plataforma para ter uma melhor experiência de uso e tirar todas as suas dúvidas pessoalmente.</p>
           </div>
             <div className="col-md-4">
-              <p className="mb-0">Além do treinamento geral, serão realizados dois treinamentos específicos voltados para:</p>
+              <p className="mb-0">O onboarding inclui ainda treinamentos específicos voltados para:</p>
               <ul className="treinamento">
                 <li><Unicons.UilCheckCircle /> Orçamento Completo</li>
                 <li><Unicons.UilCheckCircle /> Financeiro Completo</li>

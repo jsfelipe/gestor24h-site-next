@@ -15,12 +15,10 @@
     7. Pages
     
     
-
+*/
+@import url(c:\Users\Diogo\Documents\JOBS\GESTOR\gestor24h-site-next\vendor\animate\animate.min.css);
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Secular+One&family=Sora:wght@200;300;500;800&display=swap");
->>>>>>> 15f4c1b0a4a8da00cbc2a2dbee3fe41af199a295
 @import url("../icons/line-awesome/css/line-awesome.min.css");
 @import url("../icons/font-awesome/css/font-awesome.min.css");
 @import url("../icons/flaticon/flaticon.css");
@@ -44,7 +42,7 @@
   --red: #ff586e;
   --orange: #ff8853;
   --yellow: #ffa808;
-  --green: #029e76;
+  --green: #0db14b;
   --teal: #20c997;
   --cyan: #17a2b8;
   --white: #fff;
@@ -13194,7 +13192,7 @@ section:after {
 }
 
 .text-green {
-  color: #029e76;
+  color: #0db14b;
 }
 
 .text-blue {
@@ -13222,7 +13220,7 @@ section:after {
 }
 
 .bg-green {
-  background-color: #029e76;
+  background-color: #0db14b;
 }
 
 .bg-blue {
@@ -13276,8 +13274,8 @@ section:after {
 }
 
 .shadow-green {
-  -webkit-box-shadow: 0 2px 15px rgba(2, 158, 118, 0.5);
-          box-shadow: 0 2px 15px rgba(2, 158, 118, 0.5);
+  -webkit-box-shadow: 0 2px 15px rgba(13, 177, 75, 0.5);
+          box-shadow: 0 2px 15px rgba(13, 177, 75, 0.5);
 }
 
 .shadow-skyblue {
@@ -16612,6 +16610,7 @@ textarea {
   margin: 5px 7px;
   background: #d6d6d6;
   display: block;
+  -webkit-backface-visibility: visible;
   -webkit-transition: opacity 200ms ease;
   transition: opacity 200ms ease;
   border-radius: 30px;
@@ -17239,6 +17238,7 @@ textarea {
   position: relative;
   overflow: hidden;
   display: block;
+  vertical-align: middle;
 }
 
 .dlab-img-effect img {
@@ -18974,7 +18974,7 @@ button.scroltop {
 }
 
 @media only screen and (max-width: 991px) {
-
+  height: 550px;
   .banner-content h1 {
     font-size: 42px;
   }
@@ -18984,7 +18984,8 @@ button.scroltop {
 }
 
 @media only screen and (max-width: 767px) {
-
+  height: auto;
+  padding-bottom: 30px;
 }
 
 @media only screen and (max-width: 575px) {
@@ -21174,6 +21175,12 @@ h1.c-at {
   margin: 0 1rem 1rem 0;
 }
 
+.box-financeiro li svg {
+  color: #0db14b;
+  width: 2em;
+  height: 2em;
+}
+
 @media (max-width: 760px) {
   .nav-tabs .nav-item {
     font-size: 1em !important;
@@ -22647,7 +22654,7 @@ p {
 
 .is-fixed a.btn-login {
   color: #000;
-  border: 3px solid #000;
+  border: 2px solid #000;
 }
 
 @media only screen and (max-width: 991px) {

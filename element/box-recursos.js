@@ -12,7 +12,7 @@ function OsRecursos() {
 
     return (
       <>
-        <section id="box-recursos" className="pt-5 pb-4">
+        <section id="box-recursos" className="pt-5">
 			<div className="container">
 				<div className="row align-items-center">
 					
