@@ -13530,6 +13530,10 @@ section:after {
   color: #00aeed;
 }
 
+.video img {
+  display: block !important;
+}
+
 .card {
   border: 0px solid #E1E1F0;
   margin-bottom: 10px;

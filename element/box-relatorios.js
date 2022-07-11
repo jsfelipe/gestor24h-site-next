@@ -15,7 +15,7 @@ function BoxRelatorios() {
 					<h2 className="title">Relatórios</h2>
 					<p>Você conta com diversos relatórios para facilitar a análise completa das suas informações.</p>
 					<p>Tenha uma visão em tempo real dos gastos dos orçamentos, relatório de resultado financeiro anual, relatório por planos de contas, contas pagas e recebidas, lançamentos e faturamento.</p>
-					
+					<p>Faturamento e Financeiro completo, você não precisa de outro sistema para sua gestão financeira. O Gestor24h já tem tudo num único sistema.</p>
 					<a href="/Relatorios-commerce" className="wow fadeInUp btn btn-info shadow rounded-xl" data-aos="fade-up" data-aos-duration="300">Saiba mais sobre o BotCommerce</a>
 				</div>  
 			</div>
