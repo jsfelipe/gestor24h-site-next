@@ -21179,10 +21179,10 @@ h1.c-at {
   margin: 0 1rem 1rem 0;
 }
 
-.box-financeiro li svg {
+.bullet {
   color: #0db14b;
-  width: 2em;
-  height: 2em;
+  width: 1.5em;
+  height: 1.5em;
 }
 
 @media (max-width: 760px) {
