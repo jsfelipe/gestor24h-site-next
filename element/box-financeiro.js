@@ -7,15 +7,15 @@ function BoxFinanceiro() {
     <>
 		<section className="container box-financeiro">
 			<div className="row">
-				<div className="col-12 col-lg-7 col-sm-7 section-head style-3">
+				<div className="col-12 col-lg-7 col-sm-7 style-3">
 					<h2 className="title">Financeiro</h2>
 					<h5>Financeiro completo integrado com o orçamento e custos de produção.</h5>
 					<p>Controle também as despesas fixas da sua empresa e tenha todo o controle num único sistema.</p>
 					<div className="d-flex">
-						<ul className="row">
+						<ul className="row mt-3">
 							<li className="col-12 col-md-6 d-flex  mb-3">
 								<div>
-								<Unicons.UilArrowCircleRight />
+								<Unicons.UilArrowCircleRight className="bullet" />
 								</div>
 								<div className="ml-3">
 								<h6>Conciliação bancária por OFX e Arquivo CNAB</h6>
@@ -24,7 +24,7 @@ function BoxFinanceiro() {
 							</li>
 							<li className="col-12 col-md-6 d-flex mb-3">
 								<div>
-								<Unicons.UilArrowCircleRight />
+								<Unicons.UilArrowCircleRight className="bullet" />
 								</div>
 								<div className="ml-3">
 								<h6>Faturamento</h6>
@@ -33,7 +33,7 @@ function BoxFinanceiro() {
 							</li>
 							<li className="col-12 col-md-6 d-flex mb-3">
 								<div>
-								<Unicons.UilArrowCircleRight />
+								<Unicons.UilArrowCircleRight className="bullet" />
 								</div>
 								<div className="ml-3">
 								<h6>Contas a pagar</h6>
@@ -42,7 +42,7 @@ function BoxFinanceiro() {
 								</li>
 							<li className="col-12 col-md-6 d-flex mb-3">
 								<div>
-								<Unicons.UilArrowCircleRight />
+								<Unicons.UilArrowCircleRight className="bullet" />
 								</div>
 								<div className="ml-3">
 								<h6>Contas a receber</h6>
@@ -52,7 +52,7 @@ function BoxFinanceiro() {
 							
 							<li className="col-12 col-md-6 d-flex mb-3">
 								<div>
-								<Unicons.UilArrowCircleRight />
+								<Unicons.UilArrowCircleRight className="bullet" />
 								</div>
 								<div className="ml-3">
 								<h6>Nota Fiscal Eletrônica</h6>
@@ -61,7 +61,7 @@ function BoxFinanceiro() {
 							</li>
 							<li className="col-12 col-md-6 d-flex mb-3">
 								<div>
-								<Unicons.UilArrowCircleRight />
+								<Unicons.UilArrowCircleRight className="bullet" />
 								</div>
 								<div className="ml-3">
 								<h6>Fluxo de caixa</h6>
@@ -70,7 +70,7 @@ function BoxFinanceiro() {
 							</li>
 							<li className="col-12 col-md-6 d-flex">
 								<div>
-								<Unicons.UilArrowCircleRight />
+								<Unicons.UilArrowCircleRight className="bullet" />
 								</div>
 								<div className="ml-3">
 								<h6>Plano de contas</h6>

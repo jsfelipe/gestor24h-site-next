@@ -87,15 +87,11 @@ h1.c-at{
 }
 
 
-.box-financeiro{
-    li{
-        svg{
-        color: $green;
-        width: 2em;
-        height: 2em;
-        }
+.bullet{
+    color: $green;
+    width: 1.5em;
+    height: 1.5em;
     }
-}
 
 @media (max-width: 760px)
 {
