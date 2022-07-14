@@ -102,7 +102,7 @@ function Index() {
 
                 <div className="col-12 d-flex justify-content-center">
                     <div className="d-flex align-content-between flex-wrap col-md-4 p-5 chamada-teste text-white justify-content-end text-right" >
-                      <img src="images/logo/logo-meets.svg" alt="" />
+                      {/* <img src="images/logo/logo-meets.svg" alt="" /> */}
                       <h2 className="text-white">Vamos começar seu período de testes!</h2>
                       <h5 className="text-white">Aproveite!</h5>
                     </div>
