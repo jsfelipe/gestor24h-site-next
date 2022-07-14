@@ -86,11 +86,18 @@ h1.c-at{
     }
 }
 
+
+.bullet{
+    color: $green;
+    width: 1.5em;
+    height: 1.5em;
+    }
+
 @media (max-width: 760px)
 {
     .nav-tabs {
         .nav-item{
-        font-size: 1.3em!important;
+        font-size: 1em!important;
         }
     }
     .box-central {

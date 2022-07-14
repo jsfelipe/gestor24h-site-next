@@ -58,8 +58,9 @@
   .nav-link.active,
   .nav-item.show .nav-link {
     color: $white;
-    background-color: $info;
+    background: $success;
     border-color: $nav-tabs-link-active-border-color;
+    font-family: $font-family-title;
   }
 
   .dropdown-menu {

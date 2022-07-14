@@ -18,7 +18,7 @@
 	}
 	@include respond('phone'){
 		width: 120px;
-		height: 75px;
+		// height: 75px;
 	}
 	a{
 		display: table-cell;
@@ -50,12 +50,24 @@ p{
 	.lb{
 		border-bottom:1px solid #f2f2f2;
 	}
+
+	.seg{
+		min-height: 12em;
+	}
 }
 
 .btn-login{
 	border:3px solid #fff;
 	color: #fff;
+
+	&:hover{
+		color: $black;
+		border: 3px solid black;
+	}
 }
+
+
+
 // Top Bar
 .top-bar {
 	background-color: $white;
@@ -343,6 +355,7 @@ p{
 			&>a {
 					color: $dark;
 					font-size: 15px;
+					font-family:$font-family-title;
 					padding: 35px 15px;
 					cursor: pointer;
 					font-weight: 600;
@@ -788,8 +801,8 @@ p{
 	}
 
 	a.btn-login{
-		color: $info;
-		border:2px solid $info;
+		color: $black;
+		border:2px solid $black;
 	}
 }
 

@@ -2,7 +2,7 @@
 
 // dlab-bnr-inr
 .dlab-bnr-inr {
-    background         : $gradient-meets;
+    background         : $gradient-gestor;
     height             : 270px;
     background-size    : cover;
     background-position: center;
@@ -208,6 +208,13 @@
         }
     .reverse-mob{
         flex-direction:column-reverse;
+    }
+    .btns-slide{
+        flex-direction: column;
+        a{
+            display: inline-block;
+            margin: 0!important;
+        }
     }
 
 }

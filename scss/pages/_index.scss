@@ -2,12 +2,10 @@
  background-color: $body-cinza;
 }
 
-
-
 // Section Specing
 .content-inner {
     background: $gradient-black;
-    padding-top   : 80px;
+    padding-top   : 40px;
     padding-bottom: 20px;
     color:#fff;
 
@@ -449,9 +447,7 @@ button.scroltop {
         height        : auto;
         padding-bottom: 30px;
 
-        .banner-content {
-            margin-bottom: 50px;
-        }
+
     }
 
     @include respond('phone') {
@@ -486,10 +482,9 @@ button.scroltop {
         }
     }
 
-
 // banner-three
 .banner-three {
-    background: $gradient-meets;
+    background: $gradient-gestor;
     // height             : 850px;
     position           : relative;
     background-position: bottom, top;
@@ -552,20 +547,20 @@ button.scroltop {
 
     @include respond('phone-land') {
         height        : auto;
-        padding-bottom: 30px;
 
-        .banner-content {
-            margin-bottom: 70px;
+        .btns-slide{
+            padding: 0 2em;
+
+            .comecar{
+                margin-bottom: 1em!important;      
+            } 
         }
+
     }
 
     @include respond('phone') {
         &:after {
             background-position: -120px bottom;
-        }
-
-        .banner-content {
-            margin-bottom: 50px;
         }
 
         .banner-inner {
@@ -2019,39 +2014,10 @@ icon-bx-wraper style-4:hover .icon-cell i,
     }
 }
 
-.box-menina-lead{
-  height:19em;
-}
-.menina-lead{
-    bottom:0em;
-    left:-2em;
-    z-index: 10;
-    display: flex;
-}
-.lead-01{
-    bottom:5em;
-    left:-2em;
-    z-index: 20;
-    width: 3em;
-}
-.lead-02{
-    bottom:15em;
-    left:-1em;
-    z-index: 20;
-    width:4em;
-}
-.lead-03{
-    bottom:5em;
-    right:2em;
-    z-index: 20;
-    width:5em;
-}
-.lead-04{
-    top:-1em;
-    right:1em;
-    z-index: 20;
-    width:6em;
-}
+.mulher{
+    padding-top: 5em;
+    }
+
 
 @media (max-width: 760px)
 {
@@ -2065,32 +2031,9 @@ icon-bx-wraper style-4:hover .icon-cell i,
    .banner-three .banner-content h1{
     line-height:1.2em;
    }
-   .menina-lead{
-    bottom:0em;
-    left:4em;
-    z-index: 10;
-    display: flex;
+   .mulher{
+    padding-top: 0em;
     }
-    .box-menina-lead{
-    height:23em;
-    }
-    .lead-01{
-        bottom:5em;
-        left:4em;
-    }
-    .lead-02{
-        bottom:15em;
-        left:1em;
-    }
-    .lead-03{
-        bottom:-2em;
-        right:9em;
-    }
-    .lead-04{
-        top:12em;
-        right:4em;
-    }
-
 
 }
 
@@ -2101,4 +2044,83 @@ icon-bx-wraper style-4:hover .icon-cell i,
 
 .plataformas-text{
     line-height: 1.2em;
+}
+
+.valores{
+
+        h5{
+            color: $cinza;
+            font-weight: 400;
+        }
+
+}
+
+.onboarding{
+    border: 3px solid $success;
+    padding: 2em;
+}
+
+.vantagens{
+    margin-top: -3em;
+}
+
+.meets{
+    background-color: $info;
+    padding: 2em;
+    color: $white;
+
+    h2{
+        color: $white;
+    }
+
+    h6{
+        font-weight: 400;
+        font-size: 1.2em;
+        color: $white;
+    }
+}
+
+.comecar{
+
+    border: none;
+
+    &:hover{
+        background-color: $white;
+        color: $black;
+    }
+}
+
+.treinamento{
+    li{
+        margin: .5em 0;
+        svg{
+            color: $success;
+        }
+    }
+}
+
+
+@media (max-width: 760px){
+
+.action-box{
+    a{
+        justify-content: center;
+        font-size: 1em!important;
+    }
+}
+
+.valores, .banner-principal{
+    flex-direction: column-reverse;
+}
+
+.banner-principal{
+    img{
+        padding-top: 5em;
+    }
+}
+
+.onboarding, .meets{
+    margin: 0;
+}
+
 }
