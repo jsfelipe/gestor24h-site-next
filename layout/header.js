@@ -46,7 +46,7 @@ function Header() {
                             {/* <!-- Website Logo --> */}
                             <div className="logo-header mostion logo-dark">
                                 <Link href="#topo">
-                                    <a>
+                                    <a href='/index'>
                                         <img className="custom-logo-white" src="../images/logo/logo-gestor.svg" alt="" />
                                         <img className="custom-logo" src="../images/logo/logo-gestor-verde.svg" alt="" />
                                     </a>
@@ -82,7 +82,7 @@ function Header() {
                             >
                                 <div className="logo-header">
                                     <Link href="#topo">
-                                        <a>
+                                        <a href='/index'>
                                             <img src="images/logo/logo-gestor.svg" alt="" />
                                         </a>
                                     </Link>
