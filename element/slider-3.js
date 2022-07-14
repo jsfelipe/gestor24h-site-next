@@ -21,7 +21,7 @@ function Slider3 () {
 
 								<div class="d-flex center-mob mt-4 btns-slide">
 								<a href="teste-gratis" data-aos="fade-up" data-aos-duration="300" className="btn btn-primary mr-3 btn-round comecar">Começar agora</a>
-								<a href="https://api.whatsapp.com/send?phone=5581992971917" target="_blank" data-aos="fade-up" data-aos-duration="300" className="btn btn-light btn-round">Solicitar apresentação</a>
+								<a href="https://api.whatsapp.com/send?phone=5581994994603" target="_blank" data-aos="fade-up" data-aos-duration="300" className="btn btn-light btn-round">Solicitar apresentação</a>
 								</div>
 							</div>
 						</div>
