@@ -15,7 +15,7 @@ function Slider3 () {
 						<div className="col-md-6">
 							<div className="banner-content text-white">
 								{/* <h1 className="m-b20 crm-mais" data-aos="fade-up" data-aos-duration="300">CRM <img src="images/banner/mais.png" data-aos="fade-up" data-aos-duration="500" alt=""/></h1> */}
-								<h1 className="mb-3 c-at center-mob" data-aos="fade-right" data-aos-duration="100">Seu Sistema de Gestão Definitivo.</h1>
+								<h1 className="mb-3 c-at center-mob" data-aos="fade-right" data-aos-duration="100">Seu Sistema de Gestão de Serviços Definitivo.</h1>
 								<h3 className="center-mob">Completo, mas sem complicar.</h3>
 								<h6 className="sub-title text-primary mt-2 center-mob" data-aos="fade-right" data-aos-duration="200">Gestão de propostas, orçamentos, financeiro completo e relatórios</h6>
 
