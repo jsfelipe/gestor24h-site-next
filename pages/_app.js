@@ -69,15 +69,20 @@ function MyApp({ Component, pageProps })  {
       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       
-			<title>Gestor 24h - Sistema de Gestão Empresarial para serviços</title>
-      <meta property="og:description" content="Gestor 24h - Sistema de Gestão Empresarial para serviços." />
-      <meta name="description" content="Gestor 24h - Sistema de Gestão Empresarial para serviços." />
+			<title>Gestor 24h - Sistema de Gestão para Serviços, orçamentos e financeiro</title>
+      <meta property="og:description" content="Gestor 24h - Sistema de Gestão para Serviços, orçamentos e financeiro" />
+      <meta name="description" content="Gestor 24h - Sistema de Gestão para Serviços, orçamentos e financeiro" />
       <meta property="og:url" content="https://meets.com.br/" />
-      <meta property="og:site_name" content="Gestor 24h - Gestão Empresarial online" />
+      <meta property="og:site_name" content="Gestor 24h - Gestão de Serviços Online" />
 			<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.png"/>
-      {/* <link rel="stylesheet" type="text/css" href="https://gerador5.meets.com.br/widget/css" />
-
-      <script async src={`https://gerador5.meets.com.br/widget/js?id_integracao=1&id_empresa=12276&identifier=12276`} /> */}
+      
+      <script
+          dangerouslySetInnerHTML={{
+            __html: `window.$crisp=[];window.CRISP_WEBSITE_ID="2cab397e-de12-42af-9bfb-caeb9a42b0cb";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
+        `,
+          }}
+        />
+      
       
       
       
