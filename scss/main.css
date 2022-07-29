@@ -18579,6 +18579,10 @@ ul.primary li:before {
   background-color: #fafafa;
 }
 
+.page-content-login {
+  height: 100vh;
+}
+
 .content-inner {
   background: -webkit-gradient(linear, left top, right top, color-stop(0, #111111), color-stop(51%, #111111), to(#2a2a2a));
   background: linear-gradient(to right, #111111 0, #111111 51%, #2a2a2a 100%);
