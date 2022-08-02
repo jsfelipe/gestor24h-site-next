@@ -24,6 +24,8 @@ function Index() {
     email: null,
     telefone: null,
     uf_nfe: null,
+    tipo_jobb: 'G24',
+    tipo_cliente: 'T'
   });
 
   const [loading, setLoading] = useState(false)
