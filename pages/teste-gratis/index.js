@@ -12,23 +12,18 @@ const api = axios.create({
   baseURL: 'http://localhost:8000/api/',
   timeout: 30000,
 });
-const api_antiga = axios.create({
-  baseURL: 'https://acesso.meets.com.br/',
-  timeout: 10000,
-});
+
 
 function Index() {
   const router = useRouter();
 
 
   const [state, setState] = useState({
-    name: null,
+    nome: null,
+    contato: null,
     email: null,
-    password: null,
-    confirm_password: null,
-    mobile: null,
-    showErrorPassword: false,
-    showErrorEmailExist: false,
+    telefone: null,
+    uf_nfe: null,
   });
 
   const [loading, setLoading] = useState(false)
@@ -37,7 +32,17 @@ function Index() {
     const { name, value } = e.target;
     setState({ ...state, [name]: value });
   };
-  
+
+  const handleInputChangeTelefone = (e) => {
+    const { name, value } = e.target;
+
+    // place a phone mask on the input. Brazilian phone mask
+    const phoneMask = value.replace(/\D/g, '').match(/(\d{2})(\d{5})(\d{4})/);
+    if (phoneMask) {
+      setState({ ...state, [name]: `${phoneMask[1]}${phoneMask[2]}${phoneMask[3]}` });
+    }
+  }
+
 
  
 
@@ -107,7 +112,12 @@ function Index() {
                           <input type="hidden" className="form-control" name="dzToDo" value="Contact" />
                             <div className="w-100">
                               <div className="input-group">
-                                <input name="name" id="name" onChange={handleInputChange} required type="text" className="form-control" placeholder="Nome pessoal ou empresa" />
+                                <input name="contato" id="contato" onChange={handleInputChange} required type="text" className="form-control" placeholder="Nome" />
+                              </div>
+                            </div>
+                            <div className="w-100">
+                              <div className="input-group">
+                                <input name="nome" id="nome" onChange={handleInputChange} required type="text" className="form-control" placeholder="Empresa" />
                               </div>
                             </div>
                             <div className="w-100">
@@ -115,16 +125,16 @@ function Index() {
                                 <input name="email" id="email" onChange={handleInputChange} title="Preencha o e-mail corretamente." required type="email" className="form-control" placeholder="E-mail" />
                               </div>
                             </div>
-                            <span className={state.showErrorEmailExist === true ? 'ft11-red' : 'd-none'}>Este e-mail já foi cadastrado. Solicite ao suporte para reativar sua conta.</span>
+                            
                             <div className="w-100">
                               <div className="input-group">
-                                <input name="mobile" id="mobile" onChange={handleInputChange} required type="text" className="form-control" placeholder="Celular" />
+                                <input name="telefone" id="telefone" onChange={handleInputChangeTelefone} required type="text" className="form-control" placeholder="Celular" />
                               </div>
                             </div>
                             <div className="w-100">
                               <div className="input-group">
                                 {/* select with all states from brazil */}
-                                <select name="state" id="state" onChange={handleInputChange} required className="form-control">
+                                <select name="uf_nfe" id="uf_nfe" onChange={handleInputChange} required className="form-control">
                                   <option value="">Estado</option>
                                   <option value="AC">Acre</option>
                                   <option value="AL">Alagoas</option>
