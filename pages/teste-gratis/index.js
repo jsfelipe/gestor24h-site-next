@@ -25,7 +25,14 @@ function Index() {
     telefone: null,
     uf_nfe: null,
     tipo_jobb: 'G24',
-    tipo_cliente: 'T'
+    tipo_cliente: 'T',
+    // data_cadastro today date format YYYY-MM-DD
+    data_cadastro: new Date().toISOString().split('T')[0],
+    // data_vencimento today date format YYYY-MM-DD plus 16 days
+    data_vencimento: new Date(new Date().setDate(new Date().getDate() + 16)).toISOString().split('T')[0],
+    data_prorrogacao: new Date(new Date().setDate(new Date().getDate() + 16)).toISOString().split('T')[0],
+
+    
   });
 
   const [loading, setLoading] = useState(false)
