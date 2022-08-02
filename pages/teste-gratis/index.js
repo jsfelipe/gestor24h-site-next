@@ -9,7 +9,8 @@ import { Exception } from 'sass';
 // https://apijobbadmin.sistemajobb.com.br/api
 //           type: 'POST',
 const api = axios.create({
-  baseURL: 'https://apijobbadmin.sistemajobb.com.br/api',
+  // baseURL: 'https://apijobbadmin.sistemajobb.com.br/api',
+  baseURL: 'http://localhost:8000/api',
   timeout: 30000,
 });
 
@@ -26,8 +27,8 @@ function Index() {
     uf_nfe: null,
     tipo_jobb: 'G24',
     tipo_cliente: 'T',
-    // data_cadastro today date format YYYY-MM-DD
-    data_cadastro: new Date().toISOString().split('T')[0],
+    // data_cadastro today date format YYYY-MM-DD HH:MM:SS
+    data_cadastro: new Date().toISOString().slice(0, 19).replace('T', ' '),
     // data_vencimento today date format YYYY-MM-DD plus 16 days
     data_vencimento: new Date(new Date().setDate(new Date().getDate() + 16)).toISOString().split('T')[0],
     data_prorrogacao: new Date(new Date().setDate(new Date().getDate() + 16)).toISOString().split('T')[0],
@@ -72,6 +73,9 @@ function Index() {
     // } 
     
     //setLoading(true);
+
+    console.log({state})
+
     const response = await api.post('testegratis', state);
 
     console.log(response.data);
