@@ -3,10 +3,14 @@ import { useRouter } from "next/router";
 import axios from 'axios';
 import Head from "next/head";
 import ReactLoading from 'react-loading';
+import { Exception } from 'sass';
 
+// url: 'http://jobbadmin.sistemajobb.com.br/access/cadastro-via-site-cliente/',
+// https://apijobbadmin.sistemajobb.com.br/api
+//           type: 'POST',
 const api = axios.create({
-  baseURL: 'https://api.meets.com.br/api/',
-  timeout: 45000,
+  baseURL: 'http://localhost:8000/api/',
+  timeout: 30000,
 });
 const api_antiga = axios.create({
   baseURL: 'https://acesso.meets.com.br/',
@@ -43,37 +47,27 @@ function Index() {
     
     setLoading(true)
 
-    if(state.password !== state.confirm_password){
-      console.log('Senha está diferente');
-      setState({ ...state, showErrorPassword: true });
-      setLoading(false)
-      return false
-    } else {
-      setLoading(true)
-      setState({ ...state, showErrorPassword: false });
-    } 
+    // if(state.password !== state.confirm_password){
+    //   console.log('Senha está diferente');
+    //   setState({ ...state, showErrorPassword: true });
+    //   setLoading(false)
+    //   return false
+    // } else {
+    //   setLoading(true)
+    //   setState({ ...state, showErrorPassword: false });
+    // } 
     
     //setLoading(true);
-    const response = await api.post('v1/test-register', state);
+    const response = await api.post('testegratis', state);
+
+    console.log(response.data);
+
     const status = response.data.status ? response.data.status : false
 
     if(status){
 
       console.log("Cadastro sucesso");
-      // cadastrando oportunidade
-      const oportunidade = await api_antiga.post('oportunidade/salvar', {
-        id_usuario :16751,
-        id_origem: '73657',
-	      tipo_pessoa:'PJ',
-	      razao_cliente: state.name,
-        celular_cliente: state.mobile,
-	      email_cliente:state.email
-      }, {
-        headers: {
-          'Authorization': '36FDCDB9-FF0D-D6B7-01EA-3A68D350B50C' 
-        }
-      })
-      console.log({oportunidade});
+      
 
       router.push('/teste-gratis/sucesso')
     } else {
@@ -129,16 +123,42 @@ function Index() {
                             </div>
                             <div className="w-100">
                               <div className="input-group">
-                                <input name="password" id="password" onChange={handleInputChange} required type="password" className="form-control" placeholder="Senha" />
+                                {/* select with all states from brazil */}
+                                <select name="state" id="state" onChange={handleInputChange} required className="form-control">
+                                  <option value="">Estado</option>
+                                  <option value="AC">Acre</option>
+                                  <option value="AL">Alagoas</option>
+                                  <option value="AP">Amapá</option>
+                                  <option value="AM">Amazonas</option>
+                                  <option value="BA">Bahia</option>
+                                  <option value="CE">Ceará</option>
+                                  <option value="DF">Distrito Federal</option>
+                                  <option value="ES">Espírito Santo</option>
+                                  <option value="GO">Goiás</option>
+                                  <option value="MA">Maranhão</option>
+                                  <option value="MT">Mato Grosso</option>
+                                  <option value="MS">Mato Grosso do Sul</option>
+                                  <option value="MG">Minas Gerais</option>
+                                  <option value="PA">Pará</option>
+                                  <option value="PB">Paraíba</option>
+                                  <option value="PR">Paraná</option>
+                                  <option value="PE">Pernambuco</option>
+                                  <option value="PI">Piauí</option>
+                                  <option value="RJ">Rio de Janeiro</option>
+                                  <option value="RN">Rio Grande do Norte</option>
+                                  <option value="RS">Rio Grande do Sul</option>
+                                  <option value="RO">Rondônia</option>
+                                  <option value="RR">Roraima</option>
+                                  <option value="SC">Santa Catarina</option>
+                                  <option value="SP">São Paulo</option>
+                                  <option value="SE">Sergipe</option>
+                                  <option value="TO">Tocantins</option>
+                                </select>
+
+
                               </div>
                             </div>
-                            <span className={state.showErrorPassword === true ? 'ft11-red' : 'd-none'}>As senhas digitadas estão diferentes.</span>
-                            <div className="w-100">
-                              <div className="input-group">
-                                <input name="confirm_password" id="confirm_password" onChange={handleInputChange} required type="password" className="form-control" placeholder="Confirmar senha" />
-                              </div>
-                            </div>
-                            <span className={state.showErrorPassword === true ? 'ft11-red' : 'd-none'}>As senhas digitadas estão diferentes.</span>
+                            
                            
                             <div className="w-100">
                               <button name="submit" type="submit" value="Submit"className="btn btn-primary">
