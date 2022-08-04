@@ -27,14 +27,14 @@ function Error404() {
 						<div className='rounded shadow p-5 content-inner-2'>
 							<h4 className="error-head">Acesso antigo</h4>
 							<p>Nossa primeira versão ainda continua funcionando para que você faça a migração no tempo que achar necessário.</p>
-							<Link href="/"><a className="btn btn-primary radius-no"><span className="p-lr15">Fazer login</span></a></Link>
+							<Link href="https://app.gestor24h.com.br"><a className="btn btn-primary radius-no"><span className="p-lr15">Fazer login</span></a></Link>
 						</div>
 					</div>
 					<div className="col-4 text-center">
 						<div className='rounded shadow p-5 content-inner-2'>
 							<h4 className="error-head">Acesso Novo 3.0</h4>
 							<p>Nosso sistema passou por uma atualização recentemente, lançamos o Gestor24h 3.0 ainda mais simples e completo.</p>
-							<Link href="/"><a className="btn btn-primary radius-no"><span className="p-lr15">Fazer login</span></a></Link>
+							<Link href="https://appv2.gestor24h.com.br"><a className="btn btn-primary radius-no"><span className="p-lr15">Fazer login</span></a></Link>
 						</div>
 					</div>
 				</div>
