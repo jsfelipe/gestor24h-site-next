@@ -9,8 +9,8 @@ import { Exception } from 'sass';
 // https://apijobbadmin.sistemajobb.com.br/api
 //           type: 'POST',
 const api = axios.create({
-  baseURL: 'https://apijobbadmin.sistemajobb.com.br/api',
-  //baseURL: 'http://localhost:8000/api',
+  //baseURL: 'https://apijobbadmin.sistemajobb.com.br/api',
+  baseURL: 'http://localhost:8000/api',
   timeout: 30000,
 });
 

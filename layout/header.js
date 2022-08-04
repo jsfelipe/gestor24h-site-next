@@ -67,7 +67,7 @@ function Header() {
                             <div className="extra-nav">
                                 <div className="extra-cell">
                                     <Link href="/teste-gratis/" target="_blank">
-                                        <a className="btn btn-primary rounded-xl" target="_blank" rel="noreferrer">Solicitar apresentação</a>
+                                        <a className="btn btn-primary rounded-xl" target="_blank" rel="noreferrer">Solicitar teste grátis</a>
                                     </Link>
                                     <Link href="/login" >
                                         <a className="btn btn-login rounded-xl" target="_blank" rel="noreferrer">Login</a>
@@ -92,12 +92,12 @@ function Header() {
 									<li><Link href="#box-recursos"><a>Recursos</a></Link></li>
                                     <li><Link href="#vantagens"><a>Vantagens</a></Link></li>
                                     <li><Link href="#box-planos"><a>Planos</a></Link></li>
-                                    <li><Link href="https://ajuda.meets.com.br" ><a target="_blank" rel="noreferrer" >Ajuda</a></Link></li>
+                                    {/* <li><Link href="https://ajuda.meets.com.br" ><a target="_blank" rel="noreferrer" >Ajuda</a></Link></li> */}
                                 </ul>
                                  <div className="dlab-social-icon">
                                     <div className="extra-cell d-flex flex-column">
                                         <Link href="teste-gratis">
-                                            <a className="btn btn-primary rounded-xl shadow" target="_blank" rel="noreferrer" >Solicitar apresentação</a>
+                                            <a className="btn btn-primary rounded-xl shadow" target="_blank" rel="noreferrer" >Solicitar teste grátis</a>
                                         </Link>
                                         <Link href="login">
                                             <a className="btn btn-login rounded-xl border border-white border-5" target="_blank" rel="noreferrer">Login</a>

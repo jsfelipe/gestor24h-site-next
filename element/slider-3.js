@@ -20,8 +20,8 @@ function Slider3 () {
 								<h6 className="sub-title text-primary mt-2 center-mob" data-aos="fade-right" data-aos-duration="200">Gestão de propostas, orçamentos, financeiro completo e relatórios</h6>
 
 								<div class="d-flex center-mob mt-4 btns-slide">
-								<a href="teste-gratis" data-aos="fade-up" data-aos-duration="300" className="btn btn-primary mr-3 btn-round comecar">Começar agora</a>
-								<a href="https://api.whatsapp.com/send?phone=5581994994603" target="_blank" data-aos="fade-up" data-aos-duration="300" className="btn btn-light btn-round">Solicitar apresentação</a>
+								<a href="teste-gratis" data-aos="fade-up" data-aos-duration="300" className="btn btn-primary mr-3 btn-round comecar">Solicitar teste grátis</a>
+								<a href="https://api.whatsapp.com/send?phone=5581994994603" target="_blank" data-aos="fade-up" data-aos-duration="300" className="btn btn-light btn-round"><i className="fa fa-whatsapp fa-lg"></i> Falar pelo Whatsapp</a>
 								</div>
 							</div>
 						</div>

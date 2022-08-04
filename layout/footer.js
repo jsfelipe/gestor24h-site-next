@@ -21,13 +21,16 @@ function Footer() {
 								</li>
 							</ul>
 							<ul className="dlab-social-icon d-flex justify-content-center center-mob">
-								<li><a className="fa fa-facebook" href="https://www.facebook.com/meetscrm/?ref=br_rs" target="_blank"></a></li>
-								<li><a className="fa fa-instagram" href="https://www.instagram.com/meetscrm/" target="_blank"></a></li>
-								<li><a className="fa fa-linkedin" href="https://www.linkedin.com/company/meetscrm/" target="_blank"></a></li>
-								<li><a className="fa fa-twitter" href="https://twitter.com/meets_crm" target="_blank"></a></li>
-								<li><a className="fa fa-youtube" href="https://www.youtube.com/c/MeetsBr" target="_blank"></a></li>
-								<li><a className="fa fa-pinterest" href="https://br.pinterest.com/meetscrm1/" target="_blank"></a></li>
+								<li><a className="fa fa-facebook" href="https://www.facebook.com/gestor24h/" target="_blank"></a></li>
+								<li><a className="fa fa-instagram" href="https://instagram.com/gestor24h" target="_blank"></a></li>
+								{/* <li><a className="fa fa-linkedin" href="https://www.linkedin.com/company/" target="_blank"></a></li> */}
+								<li><a className="fa fa-twitter" href="https://twitter.com/" target="_blank"></a></li>
+								<li><a className="fa fa-youtube" href="https://www.youtube.com/channel/UCwYBI8UnzVB1ryq1fILBl_Q" target="_blank"></a></li>
+								
 							</ul>
+							<div className="footer-logo align-items-center justify-content-center center-mob">
+								<a href="https://api.whatsapp.com/send?phone=5581994994603" target="_blank" data-aos="fade-up" data-aos-duration="300" className="btn btn-light btn-round"><i className="fa fa-whatsapp fa-lg"></i> Whatsapp</a>
+						</div>
 							
 							<div className="footer-logo align-items-center justify-content-center center-mob">
 								<img src="images/logo/aws.png" alt="" className='mr-3' />
