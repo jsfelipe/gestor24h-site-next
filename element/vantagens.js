@@ -55,7 +55,7 @@ function Vantagens() {
 									</div>
 									<div class="icon-content text-center plr-mob" data-aos="fade-up" data-aos-duration="1200">
 										<h5 class="dlab-tilte">Gestão por centro de custo <br/> e projeto</h5>
-										<p>Controle o que cada usuário pode ter acesso, crie perfis de usuários</p>
+										{/* <p>Controle o que cada usuário pode ter acesso, crie perfis de usuários</p> */}
 									</div>
 								</div>
 							</div>
@@ -66,7 +66,7 @@ function Vantagens() {
 									</div>
 									<div class="icon-content text-center plr-mob" data-aos="fade-up" data-aos-duration="1200">
 										<h5 class="dlab-tilte">Conciliação bancária por OFX e Arquivo CNAB</h5>
-										<p>Controle o que cada usuário pode ter acesso, crie perfis de usuários</p>
+										{/* <p>Controle o que cada usuário pode ter acesso, crie perfis de usuários</p> */}
 									</div>
 								</div>
 							</div>
@@ -77,7 +77,7 @@ function Vantagens() {
 									</div>
 									<div class="icon-content text-center plr-mob" data-aos="fade-up" data-aos-duration="1200">
 										<h5 class="dlab-tilte">Faturamentos com emissão de NFS-e ou recibo</h5>
-										<p>Controle o que cada usuário pode ter acesso, crie perfis de usuários</p>
+										{/* <p>Controle o que cada usuário pode ter acesso, crie perfis de usuários</p> */}
 									</div>
 								</div>
 							</div>
