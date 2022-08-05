@@ -76,7 +76,7 @@ function Vantagens() {
 										<img src="images/icon/nfse.svg" alt="" />
 									</div>
 									<div class="icon-content text-center plr-mob" data-aos="fade-up" data-aos-duration="1200">
-										<h5 class="dlab-tilte">Faturamentos recorrentes com emissão de NFS-e ou recibo</h5>
+										<h5 class="dlab-tilte">Faturamentos com emissão de NFS-e ou recibo</h5>
 										<p>Controle o que cada usuário pode ter acesso, crie perfis de usuários</p>
 									</div>
 								</div>

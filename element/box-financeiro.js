@@ -28,7 +28,7 @@ function BoxFinanceiro() {
 								</div>
 								<div className="ml-3">
 								<h6>Faturamento</h6>
-								<p>lorem ipsum</p>
+								<p>Faturamento com opções de faturamento parcial, faturamento agrupado com mais de um orçamento do mesmo cliente e envio de NFS-e.</p>
 								</div>
 							</li>
 							<li className="col-12 col-md-6 d-flex mb-3">
