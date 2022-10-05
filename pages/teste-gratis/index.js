@@ -96,8 +96,8 @@ function Index() {
         id_status: "[\"79927\",\"77920\"]",
 	      tipo_pessoa:'PJ',
         usar_distribuicao: 1,
-	      razao_cliente: state.name,
-        celular_cliente: state.mobile,
+	      razao_cliente: state.nome,
+        celular_cliente: state.telefone,
 	      email_cliente:state.email
       }, {
         headers: {
