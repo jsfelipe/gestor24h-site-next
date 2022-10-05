@@ -14,6 +14,11 @@ const api = axios.create({
   timeout: 30000,
 });
 
+const api_meets = axios.create({
+  baseURL: 'https://acesso.meets.com.br/',
+  timeout: 10000,
+});
+
 
 function Index() {
   const router = useRouter();
@@ -85,9 +90,27 @@ function Index() {
     if(status){
 
       console.log("Cadastro sucesso");
-      
 
+      const oportunidade = await api_meets.post('oportunidade/salvar', {
+        id_origem: '125597',
+        id_status: "[\"79927\",\"77920\"]",
+	      tipo_pessoa:'PJ',
+        usar_distribuicao: 1,
+	      razao_cliente: state.name,
+        celular_cliente: state.mobile,
+	      email_cliente:state.email
+      }, {
+        headers: {
+          'Authorization': 'DE68BB5A-3010-9827-9ED3-E219B894F40F' 
+        }
+      })
+      console.log({oportunidade});
+      
       router.push('/teste-gratis/sucesso')
+
+
+
+
     } else {
       setLoading(false)
       if(response.data.code === 'E101'){
