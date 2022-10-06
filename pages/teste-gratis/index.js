@@ -99,6 +99,7 @@ function Index() {
           usar_distribuicao: 1,
           id_equipe: 1790,
           razao_cliente: state.nome,
+          fantasia: state.contato,
           celular_cliente: state.telefone,
           email_cliente:state.email
         }, {
