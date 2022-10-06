@@ -91,21 +91,29 @@ function Index() {
 
       console.log("Cadastro sucesso");
 
-      const oportunidade = await api_meets.post('oportunidade/salvar', {
-        id_origem: '125597',
-        id_status: "[\"79927\",\"77920\"]",
-	      tipo_pessoa:'PJ',
-        usar_distribuicao: 1,
-        id_equipe: 1790,
-	      razao_cliente: state.nome,
-        celular_cliente: state.telefone,
-	      email_cliente:state.email
-      }, {
-        headers: {
-          'Authorization': 'DE68BB5A-3010-9827-9ED3-E219B894F40F' 
-        }
-      })
-      console.log({oportunidade});
+      try {
+        const oportunidade = await api_meets.post('oportunidade/salvar', {
+          id_origem: '125597',
+          id_status: "[\"79927\",\"77920\"]",
+          tipo_pessoa:'PJ',
+          usar_distribuicao: 1,
+          id_equipe: 1790,
+          razao_cliente: state.nome,
+          fantasia_cliente: state.contato,
+          celular_cliente: state.telefone,
+          email_cliente:state.email
+        }, {
+          headers: {
+            'Authorization': 'DE68BB5A-3010-9827-9ED3-E219B894F40F' 
+          }
+        })
+        console.log({oportunidade});
+        
+      } catch (error) {
+        console.log("Erro na integração com o Meets");
+      }
+
+      
       
       router.push('/teste-gratis/sucesso')
 
