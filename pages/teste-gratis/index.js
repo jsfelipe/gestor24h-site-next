@@ -136,13 +136,14 @@ function Index() {
 
         <section className="teste-gratis">
 
-                <div className="col-12 d-flex justify-content-center">
-                    <div className="d-flex align-content-between flex-wrap col-md-4 p-5 chamada-teste text-white justify-content-end text-right" >
-                      {/* <img src="images/logo/logo-meets.svg" alt="" /> */}
+                <div className="col-12 d-flex justify-content-center teste">
+                
+                    <div className="d-flex align-content-between flex-wrap col-lg-4 col-12 p-5 chamada-teste text-white justify-content-end text-right" >
+                      <img className='logo-verde' src="images/logo/ass-gestor.svg" alt="" />
                       <h2 className="text-white">Vamos começar seu período de testes!</h2>
                       <h5 className="text-white">Aproveite!</h5>
                     </div>
-                    <div className="justify-content-between col-md-4 p-5 formulario-teste" > 
+                    <div className="justify-content-between col-lg-4 col-12 p-5 formulario-teste" > 
                       <div className="">
                         <form className="dlab-form dzForm" onSubmit={saveRegister}>
                           <div className=""></div>

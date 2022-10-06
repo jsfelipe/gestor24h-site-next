@@ -5,8 +5,8 @@ function Meets() {
   return (
     <>
       <section className="content pb-5">
-			<div className="container shadow rounded meets">
-				<div className="row align-items-center m-mob">
+			<div className="shadow rounded meets">
+				<div className="row align-items-center m-mob parceiro">
 					<div className="col-12 col-md-2 center-mob mb-mob">
 						<img src="images/logo/parceiro.svg" alt="" width={350} />
 					</div>

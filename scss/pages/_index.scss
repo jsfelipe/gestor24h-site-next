@@ -2019,8 +2019,9 @@ icon-bx-wraper style-4:hover .icon-cell i,
 }
 
 .mulher{
-    padding-top: 5em;
-    }
+    display: flex;
+    padding-top: 2em;
+}
 
 
 @media (max-width: 760px)
@@ -2035,9 +2036,6 @@ icon-bx-wraper style-4:hover .icon-cell i,
    .banner-three .banner-content h1{
     line-height:1.2em;
    }
-   .mulher{
-    padding-top: 0em;
-    }
 
 }
 
@@ -2103,28 +2101,106 @@ icon-bx-wraper style-4:hover .icon-cell i,
     }
 }
 
-
 @media (max-width: 760px){
 
-.action-box{
-    a{
+    .action-box{
+        a{
         justify-content: center;
         font-size: 1em!important;
+        }
+    }
+
+    .valores, .banner-principal{
+        flex-direction: column-reverse;
+    }
+
+    .banner-principal{
+        img{
+            padding-top: 5em;
+        }
+    }
+
+    .onboarding, .meets{
+        margin: 0;
+    }
+
+}
+
+@media (max-width: 460px){
+    .banner-three .banner-content h1{
+        font-size: 1.8em;
+    }
+    .banner-three .banner-content h3{
+        font-size: 1.4em;
+    }
+    #uncontrolled-tab-example-tabpane-Financeiro, #uncontrolled-tab-example-tabpane-Orcamentos{
+        h5{
+            font-size: .9em;
+            line-height: 1.3em;
+            margin-bottom: .5em;
+        }
+    }
+    .nav-tabs{
+        margin-bottom: 0!important;
+    }
+    .valores, .parceiro{
+        img{
+            width: 15em;
+        }
+    }
+    .parceiro{
+        h2{
+            font-size: 1.2em;
+        }
+    }
+    .boarding{
+        img{
+            width: 5em;
+        }
+    }
+    .meets{
+        margin: 0 1em;
+        padding: 1em;
+    }
+    #box-recursos{
+        nav{
+            padding: 0;
+            margin-bottom: 2em;
+            a{
+                font-size: 1em;
+                padding: .3em .6em;
+            }
+        }
+    }
+    .teste{
+        flex-direction: column;
+    }
+    .page-teste .chamada-teste{
+        border-radius: 5px 5px 0 0!important;
+    }
+    .page-teste .formulario-teste{
+        border-radius: 0 0 10px 10px!important;
+    }
+    .logo-verde{
+        margin-bottom: 1em;
     }
 }
 
-.valores, .banner-principal{
-    flex-direction: column-reverse;
+.logo-verde{
+    width: 8em;
 }
 
-.banner-principal{
+.pos-relative{
+    position: relative;
+}
+
+.pos-absolute{
+    position: absolute;
+}
+.mulher-fina{
+    bottom: 0;
+    display: contents;
     img{
-        padding-top: 5em;
+        margin: 0!important;
     }
-}
-
-.onboarding, .meets{
-    margin: 0;
-}
-
 }

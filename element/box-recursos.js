@@ -16,22 +16,20 @@ function OsRecursos() {
 			<div className="container">
 				<div className="row align-items-center">
 					
-					<Tabs defaultActiveKey="Orcamentos" id="uncontrolled-tab-example" className="mb-5 col-md-12 justify-content-center">
+					<Tabs defaultActiveKey="Orcamentos" id="uncontrolled-tab-example" className="pb-3 col-md-12 justify-content-center">
 
                         <Tab eventKey="Orcamentos" title="Orçamentos" className="align-items-center">
-							<BoxOrcamento />
+							              <BoxOrcamento />
                         </Tab>
                         <Tab eventKey="Financeiro" title="Financeiro" className="align-items-center">
-							<BoxFinanceiro />
+                            <BoxFinanceiro />
                         </Tab>
                         <Tab eventKey="Relatorios" title="Relatórios" className="align-items-center">
-							<BoxRelatorios />
+							              <BoxRelatorios />
                         </Tab>
                     </Tabs>		
 					
 				</div>
-
-				
 
 			</div>
 		</section>

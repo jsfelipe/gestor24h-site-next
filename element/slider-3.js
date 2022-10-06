@@ -9,8 +9,10 @@ function Slider3 () {
 		<div id="topo" className="banner-three">
 			<div className="container">
 					<div className="row align-items-center banner-principal">
-						<div className="col-md-6 center-mob mulher">
-							<Image src="/images/banner/posso-ajudar.png" alt="" width={611} height={638} />
+						<div className="col-md-6">
+							<div className="mulher">
+								<Image src="/images/banner/posso-ajudar.png" alt="" width={611} height={638} />
+							</div>
 						</div>
 						<div className="col-md-6">
 							<div className="banner-content text-white">

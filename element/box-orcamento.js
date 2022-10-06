@@ -22,7 +22,7 @@ function BoxOrcamento() {
     return (
       <>
 		<section className="container">
-			<div className="row align-items-center pt-3 pb-3">
+			<div className="row align-items-center pb-3">
 				
 				<div className="col-lg-5 col-sm-5">
 					<h2 className="title">Orçamento</h2>

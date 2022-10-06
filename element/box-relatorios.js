@@ -16,7 +16,7 @@ function BoxRelatorios() {
 					
 				</div>
 				<div className="col-lg-5 col-sm-5 d-flex align-items-center justify-content-center center-mob">
-					<Image src="/images/banner/homem-relatorio.png" alt="" width={444} height={595} />
+					<img src="/images/banner/homem-relatorio.png" alt="" className="m-0" />
 				</div>  
 			</div>
 		</section>

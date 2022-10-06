@@ -27,26 +27,8 @@ function BoxFinanceiro() {
 								<Unicons.UilArrowCircleRight className="bullet" />
 								</div>
 								<div className="ml-3">
-								<h6>Faturamento</h6>
-								<p>Faturamento com opções de faturamento parcial, faturamento agrupado com mais de um orçamento do mesmo cliente e envio de NFS-e.</p>
-								</div>
-							</li>
-							<li className="col-12 col-md-6 d-flex mb-3">
-								<div>
-								<Unicons.UilArrowCircleRight className="bullet" />
-								</div>
-								<div className="ml-3">
 								<h6>Contas a pagar</h6>
 								<p>Tenha total controle de todos os pagamentos, aprove-os e finalize através de um arquivo CNAB.</p>
-								</div>
-								</li>
-							<li className="col-12 col-md-6 d-flex mb-3">
-								<div>
-								<Unicons.UilArrowCircleRight className="bullet" />
-								</div>
-								<div className="ml-3">
-								<h6>Contas a receber</h6>
-								<p>Veja o saldo total a receber e filtre por data de vencimento ou clientes devedores.</p>
 								</div>
 							</li>
 							
@@ -55,8 +37,8 @@ function BoxFinanceiro() {
 								<Unicons.UilArrowCircleRight className="bullet" />
 								</div>
 								<div className="ml-3">
-								<h6>Nota Fiscal Eletrônica</h6>
-								<p>Emita quantas NF-e precisar e envie para o email ou whatsapp do seu cliente.</p>
+								<h6>Contas a receber</h6>
+								<p>Veja o saldo total a receber e filtre por data de vencimento ou clientes devedores.</p>
 								</div>
 							</li>
 							<li className="col-12 col-md-6 d-flex mb-3">
@@ -77,12 +59,31 @@ function BoxFinanceiro() {
 								<p>Crie ilimitados planos de contas, personalize como achar melhor.</p>
 								</div>
 							</li>
+							<li className="col-12 col-md-6 d-flex mb-3">
+								<div>
+								<Unicons.UilArrowCircleRight className="bullet" />
+								</div>
+								<div className="ml-3">
+								<h6>Nota Fiscal Eletrônica</h6>
+								<p>Emita quantas NF-e precisar e envie para o email ou whatsapp do seu cliente.</p>
+								</div>
+							</li>
+							<li className="col-12 col-md-6 d-flex mb-3">
+								<div>
+								<Unicons.UilArrowCircleRight className="bullet" />
+								</div>
+								<div className="ml-3">
+								<h6>Faturamento</h6>
+								<p>Faturamento com opções de faturamento parcial, faturamento agrupado com mais de um orçamento do mesmo cliente e envio de NFS-e.</p>
+								</div>
+							</li>
+							
 						</ul>
 					</div>
 				</div>
-				<div className="col-12 col-lg-5 col-sm-5">
-					<div data-aos="fade-up" data-aos-duration="400" className="d-flex justify-content-end">
-						<Image src="/images/banner/mulher-financeiro.png" alt="" width={525} height={719} />
+				<div className="d-flex col-lg-5 col-sm-5 pos-relative">
+					<div data-aos="fade-up" data-aos-duration="400" className="mulher-fina center-mob pos-absolute">
+						<img src="/images/banner/mulher-financeiro.png" alt="" className="mb-0" />
 					</div>
 				</div>  
 			</div>

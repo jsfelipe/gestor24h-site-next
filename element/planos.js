@@ -33,7 +33,7 @@ function Planos() {
 
       <div className="row onboarding rounded" data-aos="fade-up" data-aos-duration="1000">
           
-          <div className="col-md-2 center-mob mb-mob">
+          <div className="col-md-2 center-mob mb-mob boarding">
             <img src="images/icon/plano.svg" alt="" width={110} />
           </div>
           <div className="col-md-6">
