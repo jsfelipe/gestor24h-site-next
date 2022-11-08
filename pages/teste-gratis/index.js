@@ -157,7 +157,7 @@ function Index() {
   return (
     <>
      <Head>
-    <title>Teste Grátis | Gestor24h CRM</title>
+    <title>Teste Grátis | Gestor24h</title>
     </Head>
 
       <div className="page-content page-teste d-flex align-items-center justify-content-center">
@@ -238,7 +238,7 @@ function Index() {
                             <div className="w-100">
                               <h6>Crie sua conta:</h6>
                               <div className="input-group">
-                                <input name="subdominio" id="subdominio" onChange={handleInputChange} required type="text" className="form-control" placeholder="Dominio" />                        
+                                <input name="subdominio" id="subdominio" onChange={handleInputChange} required type="text" className="form-control" placeholder="Dominio. Ex: nomeempresa" />                        
                               </div>
                               {
                                 msg && 
@@ -248,7 +248,7 @@ function Index() {
 
                             <div className="w-100">
                               <div className="input-group">
-                                <input name="login" id="login" onChange={handleInputChange} required type="text" className="form-control" placeholder="Login" />
+                                <input name="login" id="login" onChange={handleInputChange} required type="text" className="form-control" placeholder="Login. Ex: admin" />
                               </div>
                             </div>
 
