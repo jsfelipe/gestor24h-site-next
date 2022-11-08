@@ -98,6 +98,7 @@ function Index() {
 
     if(response.data.code == 0){
       setMsg(response.data.msg)
+      setLoading(false)
       return
     }
 
