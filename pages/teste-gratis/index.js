@@ -9,8 +9,8 @@ import { Exception } from 'sass';
 // https://apijobbadmin.sistemajobb.com.br/api
 //           type: 'POST',
 const api = axios.create({
-  baseURL: 'https://apijobbadmin.sistemajobb.com.br/api',
-  //baseURL: 'http://localhost:8000/api',
+ // baseURL: 'https://apijobbadmin.sistemajobb.com.br/api',
+  baseURL: 'http://127.0.0.1:8000/',
   timeout: 30000,
 });
 
@@ -37,9 +37,10 @@ function Index() {
     // data_vencimento today date format YYYY-MM-DD plus 16 days
     data_vencimento: new Date(new Date().setDate(new Date().getDate() + 16)).toISOString().split('T')[0],
     data_prorrogacao: new Date(new Date().setDate(new Date().getDate() + 16)).toISOString().split('T')[0],
-
     
   });
+
+  const [msg,setMsg] = useState('');
 
   const [loading, setLoading] = useState(false)
 
@@ -66,6 +67,7 @@ function Index() {
     event.preventDefault();
     
     setLoading(true)
+    setMsg('')
 
     // if(state.password !== state.confirm_password){
     //   console.log('Senha está diferente');
@@ -79,18 +81,31 @@ function Index() {
     
     //setLoading(true);
 
-    console.log({state})
+    //const response = await api.post('testegratis', state);
 
-    const response = await api.post('testegratis', state);
+    const formData = new FormData();
 
-    console.log(response.data);
+    formData.append('nome',state.nome)
+    formData.append('contato',state.contato)
+    formData.append('email',state.email)
+    formData.append('telefone',state.telefone)
+    formData.append('uf_nfe',state.uf_nfe)
+    formData.append('tipo_jobb',state.tipo_jobb)
 
-    const status = response.data.status ? response.data.status : false
+    const response = await api.post('/access/cadastro-cliente', formData);
+    let id_cliente = response.data
+
+    formData.append('subdominio',state.subdominio)
+    formData.append('login',state.login)
+    formData.append('senha',state.senha)
+    formData.append('id_cliente',id_cliente)
+
+    const responseData = await api.post('/access/cadastro-via-site', formData); 
+
+     const status = responseData.data.code == 1 ? true : false
 
     if(status){
-
-      console.log("Cadastro sucesso");
-
+ 
       try {
         const oportunidade = await api_meets.post('oportunidade/salvar', {
           id_origem: '125597',
@@ -112,22 +127,19 @@ function Index() {
       } catch (error) {
         console.log("Erro na integração com o Meets");
       }
-
-      
-      
+            
       router.push('/teste-gratis/sucesso')
 
 
-
-
-    } else {
+    } else {   
       setLoading(false)
+      responseData.data.code  == 0 ? setMsg(responseData.data.msg) : ''
       if(response.data.code === 'E101'){
         setState({ ...state, showErrorEmailExist: true });
         return false
       }
     }
-    //setLoading(false);
+    setLoading(false);
    
   }
 
@@ -211,6 +223,28 @@ function Index() {
                                 </select>
 
 
+                              </div>
+                            </div>
+
+                            <div className="w-100">
+                              <div className="input-group">
+                                <input name="subdominio" id="subdominio" onChange={handleInputChange} required type="text" className="form-control" placeholder="Dominio" />                        
+                              </div>
+                              {
+                                msg && 
+                                <small><strong >Este dominío já está cadastrado para outra conta.</strong><br/></small> 
+                              }                              
+                            </div>
+
+                            <div className="w-100">
+                              <div className="input-group">
+                                <input name="login" id="login" onChange={handleInputChange} required type="text" className="form-control" placeholder="Login" />
+                              </div>
+                            </div>
+
+                             <div className="w-100">
+                              <div className="input-group">
+                                <input name="senha" id="senha" onChange={handleInputChange} required type="password" className="form-control" placeholder="Senha" />
                               </div>
                             </div>
                             
