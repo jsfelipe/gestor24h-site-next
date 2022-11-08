@@ -16,7 +16,7 @@
     
     
 */
-
+@import url(c:\Users\Diogo\Documents\JOBS\GESTOR\gestor24h-site-next\vendor\animate\animate.min.css);
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
 @import url("../icons/line-awesome/css/line-awesome.min.css");
@@ -21610,6 +21610,12 @@ th, td {
   background: linear-gradient(45deg, #0a7934 0%, #0db14b 53%, #00cb92 100%);
 }
 
+.chamada-teste img{
+  width: 8em;
+}
+.chamada-teste, .formulario-teste {
+  padding: 3em;
+}
 .page-teste .chamada-teste {
   background: -webkit-gradient(linear, left top, right top, color-stop(0, #111111), color-stop(51%, #111111), to(#2a2a2a));
   background: linear-gradient(to right, #111111 0, #111111 51%, #2a2a2a 100%);
@@ -23410,5 +23416,30 @@ footer .widget_getintuch ul li i {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+
+  #teste{
+    flex-direction: column;
+  }
+  .teste-gratis{
+    padding: 1em;
+  }
+  .page-teste{
+    height: 100%;
+  }
+  .chamada-teste, .formulario-teste {
+    padding: 1.5em;
+  }
+  .chamada-teste {
+    height: 14em;
+  }
+  .page-teste .chamada-teste {
+    border-radius: 10px 10px 0 0;
+  }
+  .page-teste .formulario-teste {
+    border-radius: 0 0 10px 10px;
+  }
+
 }
+
+
 /*# sourceMappingURL=main.css.map */
