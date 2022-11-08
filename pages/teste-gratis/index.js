@@ -93,7 +93,12 @@ function Index() {
     formData.append('tipo_jobb',state.tipo_jobb)
 
     const response = await api.post('/access/cadastro-cliente', formData);
-    let id_cliente = response.data
+    let id_cliente = response.data.id_cliente
+
+    if(response.data.code == 0){
+      setMsg(response.data.msg)
+      return
+    }
 
     formData.append('subdominio',state.subdominio)
     formData.append('login',state.login)
@@ -134,6 +139,7 @@ function Index() {
     } else {   
       setLoading(false)
       responseData.data.code  == 0 ? setMsg(responseData.data.msg) : ''
+      
       if(response.data.code === 'E101'){
         setState({ ...state, showErrorEmailExist: true });
         return false
