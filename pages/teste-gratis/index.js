@@ -30,7 +30,7 @@ function Index() {
     email: null,
     telefone: null,
     uf_nfe: null,
-    tipo_jobb: 'G24',
+    tipo_jobb: '24',
     tipo_cliente: 'T',
     // data_cadastro today date format YYYY-MM-DD HH:MM:SS
     data_cadastro: new Date().toISOString().slice(0, 19).replace('T', ' '),
