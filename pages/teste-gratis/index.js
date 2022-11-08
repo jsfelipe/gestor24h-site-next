@@ -91,6 +91,7 @@ function Index() {
     formData.append('telefone',state.telefone)
     formData.append('uf_nfe',state.uf_nfe)
     formData.append('tipo_jobb',state.tipo_jobb)
+    formData.append('subdominio',state.subdominio)
 
     const response = await api.post('/access/cadastro-cliente', formData);
     let id_cliente = response.data.id_cliente
@@ -100,7 +101,7 @@ function Index() {
       return
     }
 
-    formData.append('subdominio',state.subdominio)
+    
     formData.append('login',state.login)
     formData.append('senha',state.senha)
     formData.append('id_cliente',id_cliente)
