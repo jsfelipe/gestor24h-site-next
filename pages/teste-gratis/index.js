@@ -119,7 +119,7 @@ function Index() {
           id_status: "[\"79927\",\"77920\"]",
           tipo_pessoa:'PJ',
           usar_distribuicao: 1,
-          //id_equipe: 1790,
+          id_equipe: 1790,
           razao_cliente: state.nome,
           fantasia: state.contato,
           celular_cliente: state.telefone,
