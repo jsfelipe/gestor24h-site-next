@@ -135,8 +135,23 @@ function Index() {
         console.log({oportunidade});
         
       } catch (error) {
-        console.log("Erro na integração com o Meets");
+        console.log("Erro na integração com o Meets -->", error);
       }
+
+      try {
+        const sendemail = await axios.post('https://apiv2.sistemajobb.com.br/api/sendemail-new-account-from-site', {
+          dominio: state.subdominio,
+          login: state.login,
+          email:state.email,
+          site_from: 'G24',
+        })
+        console.log({sendemail});
+        
+      } catch (error) {
+        console.log("Erro enviar email --> ",error);
+      }
+
+
             
       router.push('/teste-gratis/sucesso')
 
