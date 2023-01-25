@@ -10,7 +10,7 @@ import { Exception } from 'sass';
 //           type: 'POST',
 const api = axios.create({
  // baseURL: 'https://apijobbadmin.sistemajobb.com.br/api',
-  baseURL: 'https://jobbadmin.sistemajobb.com.br/',
+  baseURL: 'http://gestor24hadmin.gestor24h.com.br/',
   timeout: 30000,
 });
 
@@ -93,7 +93,7 @@ function Index() {
     formData.append('tipo_jobb',state.tipo_jobb)
     formData.append('subdominio',state.subdominio)
 
-    const response = await api.post('/access/cadastro-cliente', formData);
+    //const response = await api.post('/access/cadastro-cliente', formData);
     let id_cliente = response.data.id_cliente
 
     if(response.data.code == 0){
