@@ -90,7 +90,7 @@ function Index() {
     formData.append('email',state.email)
     formData.append('telefone',state.telefone)
     formData.append('uf_nfe',state.uf_nfe)
-    formData.append('tipo_jobb',state.tipo_jobb)
+    //formData.append('tipo_jobb',state.tipo_jobb)
     formData.append('subdominio',state.subdominio)
 
     //const response = await api.post('/access/cadastro-cliente', formData);
