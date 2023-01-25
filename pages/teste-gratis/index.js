@@ -10,7 +10,7 @@ import { Exception } from 'sass';
 //           type: 'POST',
 const api = axios.create({
  // baseURL: 'https://apijobbadmin.sistemajobb.com.br/api',
-  baseURL: 'http://gestor24hadmin.gestor24h.com.br/',
+  baseURL: 'https://gestor24hadmin.gestor24h.com.br/',
   timeout: 30000,
 });
 
