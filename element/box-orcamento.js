@@ -52,7 +52,7 @@ function BoxOrcamento() {
 				<div className="col-lg-7 col-sm-7 center-mob notebook">
 					<Image src="/images/banner/top-browser.png" alt="" width={650} height={24} layout='responsive' />
 					<video width="100%" loop="true" autoplay="autoplay" muted layout='responsive'>
-						<source src="/images/video/orcamento-1.mp4" type="video/mp4" />
+						<source src="/images/video/video.ogg"  />
 						{/* <source src="http://www.tuscorlloyds.com/CorporateVideo.ogv" type="video/ogv" />
 						<source src="http://www.tuscorlloyds.com/CorporateVideo.webm" type="video/webm" /> */}
 					</video>
