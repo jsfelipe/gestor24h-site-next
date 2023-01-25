@@ -94,18 +94,18 @@ function Index() {
     formData.append('subdominio',state.subdominio)
 
     //const response = await api.post('/access/cadastro-cliente', formData);
-    let id_cliente = response.data.id_cliente
+    //let id_cliente = response.data.id_cliente
 
-    if(response.data.code == 0){
-      setMsg(response.data.msg)
-      setLoading(false)
-      return
-    }
+    // if(response.data.code == 0){
+    //   setMsg(response.data.msg)
+    //   setLoading(false)
+    //   return
+    // }
 
     
     formData.append('login',state.login)
     formData.append('senha',state.senha)
-    formData.append('id_cliente',id_cliente)
+    //formData.append('id_cliente',id_cliente)
 
     const responseData = await api.post('/access/cadastro-via-site', formData); 
 
