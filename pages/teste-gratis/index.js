@@ -109,7 +109,10 @@ function Index() {
 
     const responseData = await api.post('/access/cadastro-via-site', formData); 
 
-     const status = responseData.data.code == 1 ? true : false
+    //console.log({responseData});
+
+    //const status = responseData.data.code == 1 ? true : false
+    const status = responseData.status == 200 ? true : false
 
     if(status){
  
