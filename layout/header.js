@@ -69,7 +69,7 @@ function Header() {
                                     <Link href="/teste-gratis/" target="_blank">
                                         <a className="btn btn-primary rounded-xl" target="_blank" rel="noreferrer">Solicitar teste grátis</a>
                                     </Link>
-                                    <Link href="/login" >
+                                    <Link href="https://app.gestor24h.com.br/" >
                                         <a className="btn btn-login rounded-xl" target="_blank" rel="noreferrer">Login</a>
                                     </Link>
                                 </div>
@@ -99,7 +99,7 @@ function Header() {
                                         <Link href="teste-gratis">
                                             <a className="btn btn-primary rounded-xl shadow" target="_blank" rel="noreferrer" >Solicitar teste grátis</a>
                                         </Link>
-                                        <Link href="login">
+                                        <Link href="https://app.gestor24h.com.br/">
                                             <a className="btn btn-login rounded-xl border border-white border-5" target="_blank" rel="noreferrer">Login</a>
                                         </Link>
                                     </div>
