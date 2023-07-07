@@ -72,7 +72,7 @@ function MyApp({ Component, pageProps })  {
 			<title>Gestor24h - Sistema de Gestão para Serviços, orçamentos e financeiro</title>
       <meta property="og:description" content="Gestor24h - Sistema de Gestão para Serviços, orçamentos e financeiro" />
       <meta name="description" content="Gestor24h - Sistema de Gestão para Serviços, orçamentos e financeiro" />
-      <meta property="og:url" content="https://meets.com.br/" />
+      <meta property="og:url" content="https://gestor24h.com.br/" />
       <meta property="og:site_name" content="Gestor24h - Gestão de Serviços Online" />
 			<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.png"/>
       
@@ -88,18 +88,18 @@ function MyApp({ Component, pageProps })  {
       
       <script
             async
-            src={https://www.googletagmanager.com/gtag/js?id=UA-2333523-57}
+            src={`https://www.googletagmanager.com/gtag/js?id=UA-2333523-57`}
           />
         <script
           dangerouslySetInnerHTML={{
-            __html: 
+            __html: `
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
           gtag('config', 'UA-2333523-57', {
             page_path: window.location.pathname,
           });
-        ,
+        `,
           }}
         />
 
