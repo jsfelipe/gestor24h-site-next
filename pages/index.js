@@ -38,7 +38,7 @@ function Index2() {
          <Planos />
          <Consultoria />
          <PerguntasFrequentes />
-         <Meets />
+         {/* <Meets /> */}
       </div>
       <Footer />
     </>
