@@ -10,7 +10,8 @@ import { Exception } from 'sass';
 //           type: 'POST',
 const api = axios.create({
  // baseURL: 'https://apijobbadmin.sistemajobb.com.br/api',
-  baseURL: 'https://gestor24hadmin.gestor24h.com.br/',
+ // baseURL: 'https://gestor24hadmin.gestor24h.com.br/',
+  baseURL: 'https://jobbadmin.sistemajobb.com.br/',
   timeout: 30000,
 });
 
@@ -93,26 +94,26 @@ function Index() {
     //formData.append('tipo_jobb',state.tipo_jobb)
     formData.append('subdominio',state.subdominio)
 
-    //const response = await api.post('/access/cadastro-cliente', formData);
-    //let id_cliente = response.data.id_cliente
+    const response = await api.post('/access/cadastro-cliente', formData);
+    let id_cliente = response.data.id_cliente
 
-    // if(response.data.code == 0){
-    //   setMsg(response.data.msg)
-    //   setLoading(false)
-    //   return
-    // }
+    if(response.data.code == 0){
+     setMsg(response.data.msg)
+     setLoading(false)
+     return
+    }
 
     
     formData.append('login',state.login)
     formData.append('senha',state.senha)
-    //formData.append('id_cliente',id_cliente)
+    formData.append('id_cliente',id_cliente)
 
     const responseData = await api.post('/access/cadastro-via-site', formData); 
 
-    //console.log({responseData});
+    console.log({responseData});
 
-    //const status = responseData.data.code == 1 ? true : false
-    const status = responseData.status == 200 ? true : false
+    const status = responseData.data.code == 1 ? true : false
+    //const status = responseData.status == 200 ? true : false
 
     if(status){
  
