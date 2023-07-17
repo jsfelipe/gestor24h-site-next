@@ -23,7 +23,7 @@ function Planos() {
         </div>
         <div className="col-12 col-md-5 pl-5 center-mob">
           <h6>a partir de</h6>
-          <h3>R$ 99,90</h3>
+          <h3>R$ 59,90</h3>
           <h5 className="">Adquira seu plano e comece a<br/> transformar a gestão da sua empresa</h5>
           <a href="teste-gratis" data-aos="fade-up" data-aos-duration="300" className="btn btn-success btn-round">Solicitar proposta</a>
         </div>
