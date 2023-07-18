@@ -51,12 +51,12 @@ function BoxOrcamento() {
 				</div>  
 				<div className="col-lg-7 col-sm-7 center-mob notebook">
 					<Image src="/images/banner/top-browser.png" alt="" width={650} height={24} layout='responsive' />
-					<video width="100%" loop="true" autoplay="autoplay" muted layout='responsive'>
+					{/* <video width="100%" loop="true" autoplay="autoplay" muted layout='responsive'>
 						<source src="/images/video/video.ogg"  />
-						{/* <source src="http://www.tuscorlloyds.com/CorporateVideo.ogv" type="video/ogv" />
-						<source src="http://www.tuscorlloyds.com/CorporateVideo.webm" type="video/webm" /> */}
-					</video>
-					{/* <Image src="/images/video/video.gif" alt="" width={650} height={350} layout='responsive' /> */}
+						 <source src="http://www.tuscorlloyds.com/CorporateVideo.ogv" type="video/ogv" />
+						<source src="http://www.tuscorlloyds.com/CorporateVideo.webm" type="video/webm" /> 
+					</video> */}
+					<Image src="/images/video/video.gif" alt="" width={650} height={350} layout='responsive' />
 					<Image src="/images/banner/footer-browser.png" alt="" width={650} height={24} layout='responsive' className="mt-7minus" />
 				</div>
 			</div>
