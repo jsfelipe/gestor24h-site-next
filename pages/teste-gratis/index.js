@@ -256,6 +256,8 @@ function Index() {
 
                             <div className="w-100">
                               <h6>Crie sua conta:</h6>
+                              
+                              <label for="subdominio"><b>Escolha um nome de domínio. Sem acentos ou espaços.</b></label>
                               <div className="input-group">
                                 <input name="subdominio" id="subdominio" onChange={handleInputChange} required type="text" className="form-control" placeholder="Dominio. Ex: nomeempresa" />                        
                               </div>
@@ -265,17 +267,17 @@ function Index() {
                               }                              
                             </div>
 
-                            <div className="w-100">
+                            {/* <div className="w-100">
                               <div className="input-group">
                                 <input name="login" id="login" onChange={handleInputChange} required type="text" className="form-control" placeholder="Login. Ex: admin" />
                               </div>
-                            </div>
+                            </div> */}
 
-                             <div className="w-100">
+                             {/* <div className="w-100">
                               <div className="input-group">
                                 <input name="senha" id="senha" onChange={handleInputChange} required type="password" className="form-control" placeholder="Senha" />
                               </div>
-                            </div>
+                            </div> */}
                             
                            
                             <div className="w-100">
