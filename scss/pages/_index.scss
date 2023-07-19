@@ -5,6 +5,54 @@
 .page-content-login{
     height:100vh;
 }
+.lista{
+    width: 100%;
+    ul{
+        
+        justify-content: space-between;
+   
+        .link{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba($color: #ffffff, $alpha: 0.8);
+            color: $black;
+            text-align: center;
+            border-radius: 5px;
+            padding: .5em 1em;
+            margin-top: 1em;
+            &:hover{
+                background-color: rgba($color: #ffffff, $alpha: 1.0);
+            }
+            svg{
+                width: 1.2em;
+                margin:0 .5em;
+            }
+        }
+    }
+    .whats{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        border-radius: 5px;
+        padding: .5em;
+        color: $white;
+        background-color: #00b925;
+        &:hover{
+            color: $black;
+            background-color: #16e43f;
+        }
+    }
+    .social{
+        display: flex;
+        justify-content: space-between;
+        .link{
+            flex-direction: column;
+            width: 3em;
+        }
+    }
+  }
 
 // Section Specing
 .content-inner {
