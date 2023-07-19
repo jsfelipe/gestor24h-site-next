@@ -23441,5 +23441,41 @@ footer .widget_getintuch ul li i {
 
 }
 
+.icon-whats a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  width: 5em;
+  height: 5em;
+  position: fixed;
+  bottom: 1.5em;
+  right: 1.5em;
+  z-index: 1000;
+  background: #14ba65;
+  background: linear-gradient(45deg, #14ba65 0%, #10db39 100%);
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+  transition: transform .5s ease, -webkit-transform .5s ease;
+}
+
+.icon-whats a:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  border: 5px solid rgba(255, 255, 255, 0.45);
+}
+
+.icon-whats span {
+  color: #fff;
+  font-size: 2.5em;
+}
+
 
 /*# sourceMappingURL=main.css.map */
