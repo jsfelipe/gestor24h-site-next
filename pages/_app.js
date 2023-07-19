@@ -76,12 +76,12 @@ function MyApp({ Component, pageProps })  {
       <meta property="og:site_name" content="Gestor24h - Gestão de Serviços Online" />
 			<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.png"/>
       
-      <script
+      {/* <script
           dangerouslySetInnerHTML={{
             __html: `window.$crisp=[];window.CRISP_WEBSITE_ID="2cab397e-de12-42af-9bfb-caeb9a42b0cb";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
         `,
           }}
-        />
+        /> */}
       
       
       

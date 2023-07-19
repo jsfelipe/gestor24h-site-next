@@ -50,6 +50,10 @@ function Footer() {
                 </div>
             </div>
         </div>
+
+		<div className="icon-whats">
+		  <a href="https://api.whatsapp.com/send?phone=5581994994603" className="whats" target="_blank"><span className="fa fa-whatsapp"></span></a>
+		  </div>
 		
     </footer>
     {/* <!-- Footer End --> */}
