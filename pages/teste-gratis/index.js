@@ -47,6 +47,11 @@ function Index() {
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
+    
+   // Regular expression to match only letters and underscores
+    const pattern = /^[A-Za-z_]+$/;
+    setIsValid(pattern.test(value));
+   
     setState({ ...state, [name]: value });
   };
 
@@ -261,6 +266,7 @@ function Index() {
                               <div className="input-group">
                                 <input name="subdominio" id="subdominio" onChange={handleInputChange} required type="text" className="form-control" placeholder="Dominio. Ex: nomeempresa" />                        
                               </div>
+                              {!isValid && <p>Please enter only letters and underscores.</p>}
                               {
                                 msg && 
                                 <small><strong >Este dominío já está cadastrado para outra conta.</strong><br/></small> 
