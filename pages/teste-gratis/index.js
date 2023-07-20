@@ -23,7 +23,7 @@ const api_meets = axios.create({
 
 function Index() {
   const router = useRouter();
-
+  const [isValid, setIsValid] = useState(true);
 
   const [state, setState] = useState({
     nome: null,
@@ -266,7 +266,7 @@ function Index() {
                               <div className="input-group">
                                 <input name="subdominio" id="subdominio" onChange={handleInputChange} required type="text" className="form-control" placeholder="Dominio. Ex: nomeempresa" />                        
                               </div>
-                              {!isValid && <p>Please enter only letters and underscores.</p>}
+                              {!isValid && <p>Por favor, informe apenas letras e underlines.</p>}
                               {
                                 msg && 
                                 <small><strong >Este dominío já está cadastrado para outra conta.</strong><br/></small> 
@@ -287,7 +287,7 @@ function Index() {
                             
                            
                             <div className="w-100">
-                              <button name="submit" type="submit" value="Submit"className="btn btn-primary">
+                              <button name="submit" type="submit" value="Submit" className="btn btn-primary" disabled={!isValid}>
                                 Começar
                               </button>
                             </div>
