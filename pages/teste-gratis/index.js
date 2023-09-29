@@ -20,6 +20,10 @@ const api_meets = axios.create({
   timeout: 10000,
 });
 
+const api_communicazap = axios.create({
+  baseURL: 'https://api.communicazap.com.br/',
+  timeout: 10000,
+});
 
 function Index() {
   const router = useRouter();
@@ -145,6 +149,19 @@ function Index() {
       }
 
       try {
+        const phoneFormatted = state.telefone.replace(/\D/g,"");
+        const sendwhatsapp = await api_communicazap.post('webhook/send-whatsapp', {
+          phone: `55${phoneFormatted}` ,
+          message: '😄 Olá! Obrigado por se cadastrar no Gestor24h \nSinta-se a vontade para entrar em contato para tirar dúvidas por este canal! \nVocê conseguiu acessar seu teste grátis? \nQualquer coisa estamos por aqui para lhe ajudar. 😉',
+          api_key: '24577e-af9cda-f335aa-7aeacf-d78ad5',
+        })
+        console.log({sendwhatsapp});
+        
+      } catch (error) {
+        console.log("Erro enviar email --> ",error);
+      }
+
+      try {
         const sendemail = await axios.post('https://apiv2.sistemajobb.com.br/api/sendemail-new-account-from-site', {
           dominio: state.subdominio,
           login: state.login,
@@ -156,8 +173,6 @@ function Index() {
       } catch (error) {
         console.log("Erro enviar email --> ",error);
       }
-
-
             
       router.push('/teste-gratis/sucesso')
 
