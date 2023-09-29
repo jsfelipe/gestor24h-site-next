@@ -21,7 +21,7 @@ const api_meets = axios.create({
 });
 
 const api_communicazap = axios.create({
-  baseURL: 'https://api.communicazap.com.br/',
+  baseURL: 'https://api.communicazap.com/',
   timeout: 10000,
 });
 
