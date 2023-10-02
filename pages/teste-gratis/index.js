@@ -20,15 +20,6 @@ const api_meets = axios.create({
   timeout: 10000,
 });
 
-const api_communicazap = axios.create({
-  baseURL: 'https://api.communicazap.com/',
-  timeout: 10000,
-  headers: {
-    "X-Requested-With" : "XMLHttpRequest",
-    "Access-Control-Allow-Origin": "*"
-  }
-});
-
 function Index() {
   const router = useRouter();
   const [isValid, setIsValid] = useState(true);
@@ -150,19 +141,6 @@ function Index() {
         
       } catch (error) {
         console.log("Erro na integração com o Meets -->", error);
-      }
-
-      try {
-        const phoneFormatted = state.telefone.replace(/\D/g,"");
-        const sendwhatsapp = await api_communicazap.post('webhook/send-whatsapp', {
-          phone: `55${phoneFormatted}` ,
-          message: '😄 Olá! Obrigado por se cadastrar no Gestor24h \nSinta-se a vontade para entrar em contato para tirar dúvidas por este canal! \nVocê conseguiu acessar seu teste grátis? \nQualquer coisa estamos por aqui para lhe ajudar. 😉',
-          api_key: '24577e-af9cda-f335aa-7aeacf-d78ad5',
-        })
-        console.log({sendwhatsapp});
-        
-      } catch (error) {
-        console.log("Erro enviar email --> ",error);
       }
 
       try {
