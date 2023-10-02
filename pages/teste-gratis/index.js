@@ -23,6 +23,10 @@ const api_meets = axios.create({
 const api_communicazap = axios.create({
   baseURL: 'https://api.communicazap.com/',
   timeout: 10000,
+  headers: {
+    "X-Requested-With" : "XMLHttpRequest",
+    "Access-Control-Allow-Origin": "*"
+  }
 });
 
 function Index() {
