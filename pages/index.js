@@ -9,6 +9,7 @@ import BoxRelatorios from "../element/box-relatorios";
 import BoxRecursos from "../element/box-recursos";
 import BoxFuncionalidades from "../element/box-funcionalidades";
 import Segmentos from "../element/segmentos";
+import Inter from "../element/inter";
 import Vantagens from "../element/vantagens";
 import Slider3 from "../element/slider-3";
 import PerguntasFrequentes from "../element/perguntas-frequentes";
@@ -29,6 +30,7 @@ function Index2() {
       <div className="page-content">
         <Slider3 />
         <BoxRecursos />
+        <Inter />
         <Segmentos /> 
         <div id="action-home">
         <Cta />

@@ -2151,6 +2151,36 @@ icon-bx-wraper style-4:hover .icon-cell i,
     }
 }
 
+.inter{
+    padding: 3em;
+    background: #ff7a00;
+    border-radius: 1em 0 0 1em;
+    h4{
+        color: $light;
+    }
+    span{
+        text-transform: uppercase;
+        color: $black;
+    }
+}
+
+.msg-inter{
+    border-radius: 0 1em 1em 0;
+    padding: 3em;
+    background: $black;
+    color: $light;
+    h5{
+        color: $light;
+    }
+}
+
+.btn-inter{
+    background: #ff7a00;
+    &:hover{
+        color: $black;
+        background: $light;
+    }
+}
 
 @media (max-width: 760px){
 
@@ -2173,6 +2203,19 @@ icon-bx-wraper style-4:hover .icon-cell i,
 
 .onboarding, .meets{
     margin: 0;
+}
+.box-inter{
+    flex-direction: column;
+}
+.inter{
+    flex-direction: column;
+    border-radius: 1em 1em 0 0;
+    img{
+        padding: 0 0 1em 0;
+    }
+}
+.msg-inter{
+    border-radius: 0 0 1em 1em;
 }
 
 }

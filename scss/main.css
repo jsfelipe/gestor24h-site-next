@@ -16,7 +16,7 @@
     
     
 */
-
+@import url(c:\Users\Diogo\Documents\JOBS\GESTOR\gestor24h-site-next\vendor\animate\animate.min.css);
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
 @import url("../icons/line-awesome/css/line-awesome.min.css");
@@ -18583,6 +18583,80 @@ ul.primary li:before {
   height: 100vh;
 }
 
+.lista {
+  width: 100%;
+}
+
+.lista ul {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.lista ul .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #000;
+  text-align: center;
+  border-radius: 5px;
+  padding: .5em 1em;
+  margin-top: 1em;
+}
+
+.lista ul .link:hover {
+  background-color: white;
+}
+
+.lista ul .link svg {
+  width: 1.2em;
+  margin: 0 .5em;
+}
+
+.lista .whats {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  border-radius: 5px;
+  padding: .5em;
+  color: #fff;
+  background-color: #00b925;
+}
+
+.lista .whats:hover {
+  color: #000;
+  background-color: #16e43f;
+}
+
+.lista .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.lista .social .link {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 3em;
+}
+
 .content-inner {
   background: -webkit-gradient(linear, left top, right top, color-stop(0, #111111), color-stop(51%, #111111), to(#2a2a2a));
   background: linear-gradient(to right, #111111 0, #111111 51%, #2a2a2a 100%);
@@ -20549,6 +20623,41 @@ icon-bx-wraper style-4:hover .icon-cell i,
   color: #0db14b;
 }
 
+.inter {
+  padding: 3em;
+  background: #ff7a00;
+  border-radius: 1em 0 0 1em;
+}
+
+.inter h4 {
+  color: #faf8f2;
+}
+
+.inter span {
+  text-transform: uppercase;
+  color: #000;
+}
+
+.msg-inter {
+  border-radius: 0 1em 1em 0;
+  padding: 3em;
+  background: #000;
+  color: #faf8f2;
+}
+
+.msg-inter h5 {
+  color: #faf8f2;
+}
+
+.btn-inter {
+  background: #ff7a00;
+}
+
+.btn-inter:hover {
+  color: #000;
+  background: #faf8f2;
+}
+
 @media (max-width: 760px) {
   .action-box a {
     -webkit-box-pack: center;
@@ -20567,6 +20676,25 @@ icon-bx-wraper style-4:hover .icon-cell i,
   }
   .onboarding, .meets {
     margin: 0;
+  }
+  .box-inter {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .inter {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border-radius: 1em 1em 0 0;
+  }
+  .inter img {
+    padding: 0 0 1em 0;
+  }
+  .msg-inter {
+    border-radius: 0 0 1em 1em;
   }
 }
 
@@ -21610,12 +21738,6 @@ th, td {
   background: linear-gradient(45deg, #0a7934 0%, #0db14b 53%, #00cb92 100%);
 }
 
-.chamada-teste img{
-  width: 8em;
-}
-.chamada-teste, .formulario-teste {
-  padding: 3em;
-}
 .page-teste .chamada-teste {
   background: -webkit-gradient(linear, left top, right top, color-stop(0, #111111), color-stop(51%, #111111), to(#2a2a2a));
   background: linear-gradient(to right, #111111 0, #111111 51%, #2a2a2a 100%);
@@ -23416,29 +23538,6 @@ footer .widget_getintuch ul li i {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-
-  #teste{
-    flex-direction: column;
-  }
-  .teste-gratis{
-    padding: 1em;
-  }
-  .page-teste{
-    height: 100%;
-  }
-  .chamada-teste, .formulario-teste {
-    padding: 1.5em;
-  }
-  .chamada-teste {
-    height: 14em;
-  }
-  .page-teste .chamada-teste {
-    border-radius: 10px 10px 0 0;
-  }
-  .page-teste .formulario-teste {
-    border-radius: 0 0 10px 10px;
-  }
-
 }
 
 .icon-whats a {
@@ -23476,6 +23575,4 @@ footer .widget_getintuch ul li i {
   color: #fff;
   font-size: 2.5em;
 }
-
-
 /*# sourceMappingURL=main.css.map */
