@@ -66,7 +66,7 @@ function Segmentos() {
 									</div>
 								</div>
 							</div>
-							<div class="seg d-flex col-lg-3 col-md-12 lb lr align-items-center justify-content-center">
+							<!--<div class="seg d-flex col-lg-3 col-md-12 lb lr align-items-center justify-content-center">
 								<div class="d-flex flex-column align-items-center justify-content-center">
 									<div class="icon-bx-md" data-aos="fade-up" data-aos-duration="1500">
 										<img src="images/icon/decoracao.svg" alt="" />
@@ -95,7 +95,7 @@ function Segmentos() {
 										<h6 class="">Palestras</h6>
 									</div>
 								</div>
-							</div>
+							</div>-->
 							<div class="seg d-flex col-lg-3 col-md-12 lr align-items-center justify-content-center">
 								<div class="d-flex flex-column align-items-center justify-content-center">
 									<div class="icon-bx-md" data-aos="fade-up" data-aos-duration="1500">
@@ -106,7 +106,7 @@ function Segmentos() {
 									</div>
 								</div>
 							</div>
-							<div class="seg d-flex col-lg-3 col-md-12 lr align-items-center justify-content-center">
+							<!--<div class="seg d-flex col-lg-3 col-md-12 lr align-items-center justify-content-center">
 								<div class="d-flex flex-column align-items-center justify-content-center">
 									<div class="icon-bx-md" data-aos="fade-up" data-aos-duration="1500">
 										<img src="images/icon/estetica.svg" alt="" />
@@ -115,7 +115,7 @@ function Segmentos() {
 										<h6 class="">Clínicas/Estética</h6>
 									</div>
 								</div>
-							</div>
+							</div>-->
 							<div class="seg d-flex col-lg-3 col-md-12 lr align-items-center justify-content-center">
 								<div class="d-flex flex-column align-items-center justify-content-center">
 									<div class="icon-bx-md" data-aos="fade-up" data-aos-duration="1500">
@@ -126,7 +126,7 @@ function Segmentos() {
 									</div>
 								</div>
 							</div>
-							<div class="seg d-flex col-lg-3 col-md-12 align-items-center justify-content-center">
+							<!--<div class="seg d-flex col-lg-3 col-md-12 align-items-center justify-content-center">
 								<div class="d-flex flex-column align-items-center justify-content-center">
 									<div class="icon-bx-md" data-aos="fade-up" data-aos-duration="1500">
 										<img src="images/icon/treinamentos.svg" alt="" />
@@ -135,7 +135,7 @@ function Segmentos() {
 										<h6 class="">Treinamentos</h6>
 									</div>
 								</div>
-							</div>
+							</div>-->
 						</div>
 					
 						
